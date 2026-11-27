@@ -1,0 +1,24 @@
+{
+  "version": "11.4.37",
+  "notes": "KAIROS 11.4.37 · Esportazione PDF compatta",
+  "sha256": {
+    "index.html": "4174bb5b8ec1017a8f1941fadf19d57fd3da55a733cb6d87431145357da41ade",
+    "app.v11.4.37.js": "83a8f8b41b37ee7017b381f55e39063b272e2eb55c6b8a0060acd97025fd6f57",
+    "style.v11.4.37.css": "c7239880755a5f8d1012c9baba81bbabeba8bdf32c4dce86446cad437d4f099f",
+    "spettanze.v11.4.37.js": "d513c00b24b7b75d2f691ab4bfa303988c5df7c87b6092cee95678cdc1babc7b",
+    "shiftflow.v11.4.37.html": "2f2bdbcb99df2815a63f4a3096b0e449824d69cde37312bf394a7ef20baf77f3",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "2eec65f3e85ce7959b4982c11f975c693337aa5a01e5e87f6a70b998fc9a610c"
+  },
+  "changes": [
+    "Popup esportazione documenti compatto",
+    "Stile PDF a colori predefinito"
+  ]
+}

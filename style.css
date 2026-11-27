@@ -838,7 +838,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 /* 11.4.26: retired appearance controls remain non-interactive for legacy preference compatibility. */
 #settings .appearance-retired11426{display:none!important;visibility:hidden!important;pointer-events:none!important}
 
-/* 11.4.36 compact appearance */
+/* 11.4.37 compact appearance */
 #settings .appearance-compact11427{display:grid;gap:8px;padding:4px 0!important;border:0!important}
 #settings .appearance-section11427,#settings .appearance-glass11427,#settings #resetAppearance950{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0;min-width:0}
 #settings .appearance-section11427>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:10px 12px;font-weight:650;cursor:pointer}
@@ -864,7 +864,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .appearance-glass11427{display:flex!important;align-items:center;justify-content:space-between;padding:10px 12px;min-height:44px}
 #settings #resetAppearance950{min-height:44px;padding:8px 12px}
 
-/* 11.4.36: compact settings only; keep a 44px minimum touch target. */
+/* 11.4.37: compact settings only; keep a 44px minimum touch target. */
 #settings .pagehead{margin-bottom:4px}
 #settings .pagehead h1{margin:3px 0;line-height:1.15}
 #settingsGroups931{gap:3px}
@@ -889,7 +889,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=appearance] .appearance-glass11427{padding:0 9px;min-height:46px;box-sizing:border-box;margin:0}
 #settings [data-group931=appearance] #resetAppearance950{min-height:44px;padding:4px 9px;margin:0}
 
-/* 11.4.36: compact access and security; scoped to settings. */
+/* 11.4.37: compact access and security; scoped to settings. */
 #settings [data-group931=security] .settings-body931{padding:1px 9px 3px}
 #settings [data-group931=security] .settings-body931>.settings-card{padding:4px 0!important;margin:0;display:grid;gap:3px}
 #settings [data-group931=security] .settings-body931 h2{margin:0;line-height:1.2;font-size:.89rem}
@@ -898,7 +898,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=security] .micro{font-size:.72rem;color:var(--muted)}
 #settings [data-group931=security] .full{margin:0;min-height:44px;padding:5px 8px;font-size:.85rem;line-height:1.2}
 
-/* 11.4.36: compact cloud controls; compatibility nodes cannot become visible. */
+/* 11.4.37: compact cloud controls; compatibility nodes cannot become visible. */
 #cloudCompatibility11431,[id=chronosOpen900],#cloudSync101,#cloudDiag101{display:none!important}
 #settings [data-group931=cloud] .settings-body931{padding:2px 9px 6px}
 #settings .cloud-simple11431{display:grid;gap:4px;padding:4px 0!important;margin:0}
@@ -912,7 +912,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .cloud-summary11431 strong{font-size:.8rem;line-height:1.25}.cloud-summary11431 strong[data-state=ok]{color:var(--good,#78d5a3)}.cloud-summary11431 strong[data-state=error]{color:var(--danger,#ef8992)}
 .cloud-summary11431 p{margin:0;line-height:1.25}.cloud-summary11431 p:empty{display:none}.cloud-summary11431 button{min-height:44px;margin:2px 0 0}.cloud-summary11431 button[hidden]{display:none!important}
 
-/* 11.4.36: compact settings; a real checkbox drives an independent switch track. */
+/* 11.4.37: compact settings; a real checkbox drives an independent switch track. */
 #settings .cloud-toggle11431>span:first-child{flex:1;min-width:0;overflow-wrap:anywhere}
 #settings .cloud-toggle11431 .cloud-switch11432{display:grid;place-items:center;position:relative;flex:0 0 48px;width:48px;min-width:48px;max-width:48px;height:44px;min-height:44px;max-height:44px;gap:0;align-self:center;box-sizing:border-box}
 #settings #cloudAuto11431{position:absolute!important;inset:0!important;display:block!important;width:100%!important;min-width:0!important;max-width:none!important;height:100%!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0!important;opacity:0!important;z-index:2;cursor:pointer;appearance:none!important;-webkit-appearance:none!important;box-sizing:border-box!important}
@@ -942,7 +942,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .compact-notice11432 .push-actions11432 button{width:100%;min-width:0;min-height:44px;padding:5px;font-size:.78rem;margin:0;line-height:1.2}
 @media(max-width:360px){#settings :is(.compact-use11432,.compact-notice11432) .compact-field11432{grid-template-columns:1fr;gap:2px}#settings .compact-notice11432 .reminder-days span{font-size:.64rem}}
 
-/* 11.4.36: compact notification preferences, shared by settings and onboarding. */
+/* 11.4.37: compact notification preferences, shared by settings and onboarding. */
 #noticeDialog11421[open]{position:fixed;inset:0;margin:auto;box-sizing:border-box;width:min(420px,calc(100% - 24px));max-width:calc(100% - 24px);height:max-content;max-height:calc(100dvh - 24px);padding:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--adaptive-radius,16px);color:var(--text);overflow:auto;overscroll-behavior:contain}
 #noticeDialog11421 h2{font-size:1.1rem;line-height:1.25;margin:0 0 6px;padding:0}
 #noticeDialog11421 .notice-actions11433{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:6px;margin:8px 0 0;padding:0}
@@ -972,7 +972,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .notice-compact11433 .notice-models11421 button{min-height:44px;margin:4px 0;font-size:.82rem}
 @media(max-width:360px){#noticeDialog11421[open]{padding:11px}#noticeDialog11421 .notice-actions11433 button{font-size:.78rem}}
 
-/* 11.4.36: Home & widgets settings only. Preserve all controls and their IDs. */
+/* 11.4.37: Home & widgets settings only. Preserve all controls and their IDs. */
 #settings .home-compact11434{padding:0 9px 3px;gap:0}
 #settings .home-compact11434>.home-group11434{padding:0!important;margin:0!important;border-bottom:1px solid var(--line)!important}
 #settings .home-compact11434>.home-group11434:last-child{border-bottom:0!important}
@@ -1009,7 +1009,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .home-inner11434 .appearance-retired11426{display:none!important}
 @media(max-width:360px){#settings .home-inner11434{padding:0 4px 4px}#settings .home-inner11434 .home-layout-field11434,#settings .home-inner11434 .adaptive-row660,#settings .home-inner11434 .e101-fields label{grid-template-columns:minmax(0,1fr);gap:1px}}
 
-/* 11.4.36 Countdown: accordion with accessible fixed-size controls. */
+/* 11.4.37 Countdown: accordion with accessible fixed-size controls. */
 #countDialog920.count-compact11435{padding:14px;max-width:460px;box-sizing:border-box}
 #countDialog920 .sectionhead{margin:0 0 4px;gap:6px;align-items:center}
 #countDialog920 .sectionhead h2{font-size:1.1rem;margin:0}
@@ -1041,3 +1041,29 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #countDialog920 .count-actions11435{display:grid;grid-template-columns:1fr 1.25fr;gap:6px;margin-top:5px}#countDialog920 .count-actions11435 button{min-height:44px;margin:0;padding:4px 6px;font-size:.9rem}#countDialog920 .count-actions11435 .primary{background:var(--accent);color:var(--bg)}
 #countError920:empty{display:none}#countError920{margin:4px 0;font-size:.8rem;color:var(--danger,#ff9999)}
 @media(max-width:360px){#countDialog920.count-compact11435{padding:10px}#countDialog920 .count-input11435{grid-template-columns:minmax(0,1fr);gap:2px}}
+
+/* 11.4.37: compact document export; native controls remain accessible, visual indicators are app-owned. */
+#pdfDialog.pdf-compact11437{position:fixed;inset:0;margin:auto;width:min(calc(100% - 24px),460px);max-width:calc(100% - 24px);max-height:min(calc(100dvh - 32px),calc(var(--keyboard-height910,100dvh) - 32px));padding:12px 14px;box-sizing:border-box;overflow:auto;scrollbar-gutter:auto;}
+#pdfDialog .pdf-sheet-head{gap:6px;margin:0 0 4px;min-height:44px;}
+#pdfDialog .pdf-sheet-head h2{margin:0;font-size:1.03rem;line-height:1.25;}
+#pdfDialog #pdfClose{width:44px;height:44px;min-height:44px;min-width:44px;padding:0;flex:0 0 44px;display:grid;place-items:center;font-size:1.1rem;}
+#pdfDialog #pdfOptions{display:grid;gap:6px;margin:0;}
+#pdfDialog fieldset{border:0;border-top:1px solid var(--line);border-radius:0;margin:0;padding:3px 0 0;min-width:0;}
+#pdfDialog legend{padding:0 7px 0 0;font-size:.82rem;font-weight:700;}
+#pdfDialog label.pdf-option11437{position:relative;display:flex;align-items:center;gap:9px;margin:0;padding:3px 4px;min-height:44px;box-sizing:border-box;font-size:.85rem;line-height:1.25;cursor:pointer;}
+#pdfDialog .pdf-option11437 input{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-width:0!important;min-height:0!important;margin:0!important;padding:0!important;opacity:0!important;appearance:none!important;-webkit-appearance:none!important;cursor:pointer;}
+#pdfDialog .pdf-mark11437{width:18px;height:18px;flex:0 0 18px;box-sizing:border-box;border:1.5px solid var(--muted);border-radius:50%;display:grid;place-items:center;pointer-events:none;}
+#pdfDialog .pdf-mark11437::after{content:'';display:block;width:8px;height:8px;border-radius:50%;background:transparent;}
+#pdfDialog input:checked + .pdf-mark11437{border-color:var(--accent);}
+#pdfDialog input:checked + .pdf-mark11437::after{background:var(--accent);}
+#pdfDialog input[type=checkbox] + .pdf-mark11437{border-radius:5px;}
+#pdfDialog input[type=checkbox]:checked + .pdf-mark11437{background:var(--accent);}
+#pdfDialog input[type=checkbox]:checked + .pdf-mark11437::after{width:5px;height:9px;border:solid var(--bg);border-width:0 2px 2px 0;border-radius:0;background:transparent;transform:rotate(45deg) translateY(-1px);}
+#pdfDialog input:focus-visible + .pdf-mark11437{outline:2px solid var(--accent);outline-offset:3px;}
+#pdfDialog .pdf-label11437{min-width:0;overflow-wrap:anywhere;pointer-events:none;}
+#pdfDialog #pdfChoices{padding:2px 6px;max-height:160px;margin:2px 0 0;overflow:auto;overscroll-behavior:contain;}
+#pdfDialog #pdfChoices[hidden]{display:none!important;}
+#pdfDialog #pdfStatus{margin:6px 0 4px;font-size:.78rem;line-height:1.3;}
+#pdfDialog .pdf-buttons,#pdfDialog .pdf-buttons>div{gap:5px;}
+#pdfDialog .pdf-buttons button{min-height:44px;padding:6px 8px;font-size:.85rem;line-height:1.25;margin:0;}
+#pdfDialog .pdf-buttons .primary{background:var(--accent);color:var(--bg);border-color:var(--accent);}

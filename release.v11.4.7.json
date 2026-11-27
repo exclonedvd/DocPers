@@ -1,0 +1,26 @@
+{
+  "version": "11.4.7",
+  "notes": "KAIROS 11.4.7 · PNG con testi centrati e completi",
+  "sha256": {
+    "index.html": "0d12334074371ea08dbf6fc7e32d722b793be7cd577779b1da355b48ace89604",
+    "app.v11.4.7.js": "1d61d0cc60b2a0f7f6a1352dd50d41da7d0abdbcbd50e8083116469ea7b751e8",
+    "style.v11.4.7.css": "7c315dbe066e2c307fc5b72bd90e955e00d7380c1fafc87058123a7918604a5d",
+    "spettanze.v11.4.7.js": "3599511e444d36b01794c2981bee3b20853fd02a0dbba5cb0ea9cd50f2aea605",
+    "shiftflow.v11.4.7.html": "157f76c5f41936b89aa40f41d45a86870a3159ae3c24814e4c83a9b03a17cc1f",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "b541858520eaf3dde073abd0110baa4fc459597a25197f69462cfea7d3412c23"
+  },
+  "changes": [
+    "Testi dei turni e spettanze interi, senza ellissi",
+    "Parole singole non spezzate; testi composti su più righe",
+    "Testi centrati orizzontalmente e verticalmente; altezze uniformi per le giornate",
+    "Orari completi su una riga dedicata se selezionati"
+  ]
+}

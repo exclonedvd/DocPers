@@ -758,7 +758,7 @@ main .empty:not([hidden]){padding:12px 8px;margin-block:5px;border:1px dashed va
 #update584 .tools button{width:100%;min-height:42px;margin:0;padding:7px 9px;font-size:14px;line-height:1.25;border-radius:10px}
 #update584 #updateProgress910{overflow-wrap:anywhere}
 
-/* 11.4.6 | Single compact personal identity panel, scoped to Scheda. */
+/* 11.4.7 | Single compact personal identity panel, scoped to Scheda. */
 #detail .detail-person1143{display:flex;flex-direction:column;align-items:stretch;gap:9px;padding:11px 12px;margin-bottom:10px;min-width:0}
 #detail .detail-person1143 .detail-identity{gap:10px;align-items:center;width:100%}
 #detail .detail-person1143 .detail-identity .avatar-preview{display:grid;width:43px;height:43px;min-width:43px;flex:0 0 43px}
@@ -775,7 +775,7 @@ main .empty:not([hidden]){padding:12px 8px;margin-block:5px;border:1px dashed va
 #detail #detailFields dd{font-size:.86rem;line-height:1.3;margin:2px 0 0;font-weight:650;overflow-wrap:anywhere}
 @media(min-width:761px){#detail #detailFields{grid-template-columns:1fr 1fr 2fr}#detail #detailFields>div:last-child{grid-column:auto}}
 
-/* 11.4.6: prevent scroll chaining behind native modal dialogs, including iOS. */
+/* 11.4.7: prevent scroll chaining behind native modal dialogs, including iOS. */
 html.kairos-modal-lock1145{overflow:hidden!important;overscroll-behavior:none!important;scroll-behavior:auto!important}
 html.kairos-modal-lock1145:not(.kairos-modal-touch1145) body{overflow:hidden!important}
 html.kairos-modal-gutter1145{scrollbar-gutter:stable}

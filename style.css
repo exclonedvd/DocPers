@@ -840,7 +840,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 /* 11.4.26: retired appearance controls remain non-interactive for legacy preference compatibility. */
 #settings .appearance-retired11426{display:none!important;visibility:hidden!important;pointer-events:none!important}
 
-/* 11.4.31 compact appearance */
+/* 11.4.32 compact appearance */
 #settings .appearance-compact11427{display:grid;gap:8px;padding:4px 0!important;border:0!important}
 #settings .appearance-section11427,#settings .appearance-glass11427,#settings #resetAppearance950{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0;min-width:0}
 #settings .appearance-section11427>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:10px 12px;font-weight:650;cursor:pointer}
@@ -866,7 +866,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .appearance-glass11427{display:flex!important;align-items:center;justify-content:space-between;padding:10px 12px;min-height:44px}
 #settings #resetAppearance950{min-height:44px;padding:8px 12px}
 
-/* 11.4.31: compact settings only; keep a 44px minimum touch target. */
+/* 11.4.32: compact settings only; keep a 44px minimum touch target. */
 #settings .pagehead{margin-bottom:4px}
 #settings .pagehead h1{margin:3px 0;line-height:1.15}
 #settings .settings-search931{margin-bottom:4px;padding:0 9px;gap:6px}
@@ -893,7 +893,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=appearance] .appearance-glass11427{padding:0 9px;min-height:46px;box-sizing:border-box;margin:0}
 #settings [data-group931=appearance] #resetAppearance950{min-height:44px;padding:4px 9px;margin:0}
 
-/* 11.4.31: compact access and security; scoped to settings. */
+/* 11.4.32: compact access and security; scoped to settings. */
 #settings [data-group931=security] .settings-body931{padding:1px 9px 3px}
 #settings [data-group931=security] .settings-body931>.settings-card{padding:4px 0!important;margin:0;display:grid;gap:3px}
 #settings [data-group931=security] .settings-body931 h2{margin:0;line-height:1.2;font-size:.89rem}
@@ -903,7 +903,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=security] .full{margin:0;min-height:44px;padding:5px 8px;font-size:.85rem;line-height:1.2}
 #settings [data-group931=security] .settings-body931>.settings-filtered932{display:none!important}
 
-/* 11.4.31: compact cloud controls; compatibility nodes cannot become visible. */
+/* 11.4.32: compact cloud controls; compatibility nodes cannot become visible. */
 #cloudCompatibility11431,[id=chronosOpen900],#cloudSync101,#cloudDiag101{display:none!important}
 #settings [data-group931=cloud] .settings-body931{padding:2px 9px 6px}
 #settings .cloud-simple11431{display:grid;gap:4px;padding:4px 0!important;margin:0}
@@ -916,3 +916,34 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .cloud-summary11431{border-top:1px solid var(--line,#405368);padding-top:5px;display:grid;gap:3px}
 .cloud-summary11431 strong{font-size:.8rem;line-height:1.25}.cloud-summary11431 strong[data-state=ok]{color:var(--good,#78d5a3)}.cloud-summary11431 strong[data-state=error]{color:var(--danger,#ef8992)}
 .cloud-summary11431 p{margin:0;line-height:1.25}.cloud-summary11431 p:empty{display:none}.cloud-summary11431 button{min-height:44px;margin:2px 0 0}.cloud-summary11431 button[hidden]{display:none!important}
+
+/* 11.4.32: compact settings; a real checkbox drives an independent switch track. */
+#settings .cloud-toggle11431>span:first-child{flex:1;min-width:0;overflow-wrap:anywhere}
+#settings .cloud-toggle11431 .cloud-switch11432{display:grid;place-items:center;position:relative;flex:0 0 48px;width:48px;min-width:48px;max-width:48px;height:44px;min-height:44px;max-height:44px;gap:0;align-self:center;box-sizing:border-box}
+#settings #cloudAuto11431{position:absolute!important;inset:0!important;display:block!important;width:100%!important;min-width:0!important;max-width:none!important;height:100%!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0!important;opacity:0!important;z-index:2;cursor:pointer;appearance:none!important;-webkit-appearance:none!important;box-sizing:border-box!important}
+#settings #cloudAuto11431::before,#settings #cloudAuto11431::after{content:none!important}
+#settings .cloud-track11432{display:block;position:relative;box-sizing:border-box;width:42px;min-width:42px;max-width:42px;height:24px;min-height:24px;max-height:24px;border-radius:999px;border:1px solid var(--line);background:var(--surface,var(--card));pointer-events:none;flex:none;overflow:hidden}
+#settings .cloud-track11432::before{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:var(--muted);box-sizing:border-box;transform:translateX(0)}
+#settings #cloudAuto11431:checked+.cloud-track11432{background:var(--accent);border-color:var(--accent)}
+#settings #cloudAuto11431:checked+.cloud-track11432::before{transform:translateX(18px);background:var(--bg)}
+#settings #cloudAuto11431:focus-visible+.cloud-track11432{outline:2px solid var(--accent);outline-offset:3px}
+#settings #cloudAuto11431:disabled+.cloud-track11432{opacity:.55}
+#settings :is(.compact-use11432,.compact-notice11432){padding:2px 9px 5px}
+#settings :is(.compact-use11432,.compact-notice11432)>.settings-card{display:grid;gap:4px;margin:0;padding:3px 0!important;min-width:0}
+#settings :is(.compact-use11432,.compact-notice11432)>.settings-filtered932{display:none!important}
+#settings :is(.compact-use11432,.compact-notice11432) h2{font-size:.86rem;line-height:1.2;margin:0}
+#settings :is(.compact-use11432,.compact-notice11432) p{font-size:.74rem;line-height:1.25;margin:0}
+#settings :is(.compact-use11432,.compact-notice11432) .compact-field11432{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:center;gap:5px;margin:0;font-size:.78rem;line-height:1.2;min-width:0}
+#settings :is(.compact-use11432,.compact-notice11432) .compact-field11432 select{width:100%;min-width:0;min-height:44px;box-sizing:border-box;padding:5px 7px;margin:0;font-size:16px}
+#settings .compact-use11432 .compact-form11432{display:block;margin:0}
+#settings .compact-use11432 .compact-resume11432{min-height:44px;gap:4px;margin:0;padding:0}
+#settings .compact-use11432 .compact-gestures11432 .settings-subbody932{display:grid;gap:4px;padding:0 0 3px}
+#settings .compact-use11432 details>summary{min-height:44px;margin:0;padding:1px 0}
+#settings :is(.compact-use11432,.compact-notice11432) button.full{width:100%;margin:0;min-height:44px;padding:5px 7px}
+#settings .compact-notice11432 .notice-auto11432{display:grid;gap:4px;min-width:0}
+#settings .compact-notice11432 .compact-divider11432{border-top:1px solid var(--line);padding-top:5px;margin-top:2px}
+#settings .compact-notice11432 .reminder-days{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:3px;margin:0}
+#settings .compact-notice11432 .reminder-days span{font-size:.68rem;line-height:1.2;text-align:center;white-space:normal;min-width:0;padding:5px 2px;margin:0}
+#settings .compact-notice11432 .push-actions11432{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;margin:0;padding:0}
+#settings .compact-notice11432 .push-actions11432 button{width:100%;min-width:0;min-height:44px;padding:5px;font-size:.78rem;margin:0;line-height:1.2}
+@media(max-width:360px){#settings :is(.compact-use11432,.compact-notice11432) .compact-field11432{grid-template-columns:1fr;gap:2px}#settings .compact-notice11432 .reminder-days span{font-size:.64rem}}

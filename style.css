@@ -840,7 +840,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 /* 11.4.26: retired appearance controls remain non-interactive for legacy preference compatibility. */
 #settings .appearance-retired11426{display:none!important;visibility:hidden!important;pointer-events:none!important}
 
-/* 11.4.28 compact appearance */
+/* 11.4.29 compact appearance */
 #settings .appearance-compact11427{display:grid;gap:8px;padding:4px 0!important;border:0!important}
 #settings .appearance-section11427,#settings .appearance-glass11427,#settings #resetAppearance950{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0;min-width:0}
 #settings .appearance-section11427>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:10px 12px;font-weight:650;cursor:pointer}
@@ -865,3 +865,30 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .appearance-advanced11427 .e101-fields{grid-column:1/-1}
 #settings .appearance-glass11427{display:flex!important;align-items:center;justify-content:space-between;padding:10px 12px;min-height:44px}
 #settings #resetAppearance950{min-height:44px;padding:8px 12px}
+
+/* 11.4.29: compact settings only; keep a 44px minimum touch target. */
+#settings .pagehead{margin-bottom:4px}
+#settings .pagehead h1{margin:3px 0;line-height:1.15}
+#settings .settings-search931{margin-bottom:4px;padding:0 9px;gap:6px}
+#settings .settings-search931 input{padding:6px 0;min-height:44px}
+#settingsGroups931{gap:3px}
+#settings .settings-group931>summary{min-height:44px;padding:3px 9px;gap:7px}
+#settings .settings-title931{gap:0}
+#settings .settings-title931 strong,#settings .settings-title931 small{line-height:1.15}
+#settings #settingsGroups931 .settings-action11423{min-height:46px!important;padding:3px 9px}
+#settings .settings-body931{padding:0 9px}
+#settings .settings-body931>.settings-card{padding:4px 0!important}
+#settings .settings-body931 .adaptive-form660{gap:4px 7px;margin:1px 0 3px}
+#settings .settings-body931 details:not(.settings-group931){margin:0!important}
+#settings .settings-body931 details>summary{min-height:44px;padding:2px 0}
+#settings .settings-body931 .smart-pref582{padding:2px 0;min-height:44px}
+#settings .settings-body931 .inf-settings903{padding:3px;margin:2px 0}
+#settings .settings-body931 .inf-row903{padding:1px 0}
+#settings .settings-body931 .full{margin-top:2px}
+#settings [data-group931=appearance] .settings-body931>.appearance-compact11427{padding:2px 0!important;gap:3px}
+#settings [data-group931=appearance] .appearance-section11427>summary{min-height:44px;padding:2px 0}
+#settings .appearance-inner11427{padding:0 3px 4px;gap:4px}
+#settings .appearance-mode11427{padding:2px;gap:2px}
+#settings .appearance-mode11427 button{min-height:44px}
+#settings [data-group931=appearance] .appearance-glass11427{padding:0 9px;min-height:46px;box-sizing:border-box;margin:0}
+#settings [data-group931=appearance] #resetAppearance950{min-height:44px;padding:4px 9px;margin:0}

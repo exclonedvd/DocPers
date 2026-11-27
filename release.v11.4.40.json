@@ -1,0 +1,25 @@
+{
+  "version": "11.4.40",
+  "notes": "KAIROS 11.4.40 · Detrazione immediata delle spettanze",
+  "sha256": {
+    "index.html": "4650fc916104ec257d9e362dbc34a212bd7041141a2bdab3806c01d290d1d2dd",
+    "app.v11.4.40.js": "2750321c26cabd9d301414f24c560826ce96b0384b88d29aed36f8ee2ffde24f",
+    "style.v11.4.40.css": "b6011b59f17f8c716ac0a0badf2e21ac83e673fead1d0b6014c392d0b52691d0",
+    "spettanze.v11.4.40.js": "3dddbbafd65d75aa7d0708717c50e22a2bc912d3ac0717be5b1e9fe1eb2a38d6",
+    "shiftflow.v11.4.40.html": "08687a8c35a874e2e3f6a716c9165b25866f3916d77b23631f0b99d7fbc89bfc",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "3f225cce0826db70e26487c410294391c822c27268a26670624b2adcd2232040"
+  },
+  "changes": [
+    "Residuo disponibile al netto degli utilizzi futuri",
+    "Maturazioni future separate nel saldo previsto",
+    "Home, dettaglio, widget e consultazione offline coerenti"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "11.4.20",
+  "notes": "KAIROS 11.4.20 · Maturazione automatica dai turni registrati",
+  "sha256": {
+    "index.html": "08b66be67a9ebfc191882ec0f82d02fe9c09208e644373ab2a684bf5184f04da",
+    "app.v11.4.20.js": "400cf36b851b73e0d515742bf9495c1eb7ffc2e9506206a838bc300658f8e9b2",
+    "style.v11.4.20.css": "9e7d7d409fb1c0b5ad245af68491656bf564be17fbd8f82b3363add1d70c8906",
+    "spettanze.v11.4.20.js": "d513c00b24b7b75d2f691ab4bfa303988c5df7c87b6092cee95678cdc1babc7b",
+    "shiftflow.v11.4.20.html": "33014b570a0ace73adaaeb9a43e0b74c4b9db3ab38ddb34005190a8211673602",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "6f55bda9867675dd540a96e23acf3fe9e23200e08dd9ad5911b122672530f2a4"
+  },
+  "changes": [
+    "Rimozione della decorrenza guardie dalla guida e dalle spettanze",
+    "Calcolo automatico H24/H12 e RF sui turni registrati, anche retroattivi",
+    "Saldi iniziali invariati; avvisi per evitare sovrapposizioni con lo storico"
+  ]
+}

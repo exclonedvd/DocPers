@@ -1,0 +1,26 @@
+{
+  "version": "11.4.5",
+  "notes": "KAIROS 11.4.5 · Popup senza scorrimento dello sfondo",
+  "sha256": {
+    "index.html": "16f71555649b40a5345905aec2351f3c059b056751576f10a01079d61c9a8615",
+    "app.v11.4.5.js": "feee7352841193b2cb9eba5a3453457418d1e480bcb24130e57f187b9f344875",
+    "style.v11.4.5.css": "829668e2f11e3bfcc071a285f954988745494c0aa9580cec46593542056abb41",
+    "spettanze.v11.4.5.js": "3599511e444d36b01794c2981bee3b20853fd02a0dbba5cb0ea9cd50f2aea605",
+    "shiftflow.v11.4.5.html": "bf3c9c8d80f8d3c2e4360638e5748833f43e24e0c692d1af3a6e5b68a810fef2",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "a6528fd7682ea1f1aa008a3ad11cd19041b460a16a361b6ebef339fc2399dccf"
+  },
+  "changes": [
+    "Blocco dello scorrimento della pagina dietro ai popup",
+    "Scorrimento interno ai popup e ripristino della posizione alla chiusura",
+    "Correzione applicata anche al modulo Turni",
+    "Compatibilità con la versione 11.4.4"
+  ]
+}

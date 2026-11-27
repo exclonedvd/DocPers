@@ -840,7 +840,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 /* 11.4.26: retired appearance controls remain non-interactive for legacy preference compatibility. */
 #settings .appearance-retired11426{display:none!important;visibility:hidden!important;pointer-events:none!important}
 
-/* 11.4.27 compact appearance */
+/* 11.4.28 compact appearance */
 #settings .appearance-compact11427{display:grid;gap:8px;padding:4px 0!important;border:0!important}
 #settings .appearance-section11427,#settings .appearance-glass11427,#settings #resetAppearance950{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0;min-width:0}
 #settings .appearance-section11427>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:10px 12px;font-weight:650;cursor:pointer}

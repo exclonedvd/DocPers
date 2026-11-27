@@ -840,7 +840,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 /* 11.4.26: retired appearance controls remain non-interactive for legacy preference compatibility. */
 #settings .appearance-retired11426{display:none!important;visibility:hidden!important;pointer-events:none!important}
 
-/* 11.4.32 compact appearance */
+/* 11.4.33 compact appearance */
 #settings .appearance-compact11427{display:grid;gap:8px;padding:4px 0!important;border:0!important}
 #settings .appearance-section11427,#settings .appearance-glass11427,#settings #resetAppearance950{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0;min-width:0}
 #settings .appearance-section11427>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:10px 12px;font-weight:650;cursor:pointer}
@@ -866,7 +866,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .appearance-glass11427{display:flex!important;align-items:center;justify-content:space-between;padding:10px 12px;min-height:44px}
 #settings #resetAppearance950{min-height:44px;padding:8px 12px}
 
-/* 11.4.32: compact settings only; keep a 44px minimum touch target. */
+/* 11.4.33: compact settings only; keep a 44px minimum touch target. */
 #settings .pagehead{margin-bottom:4px}
 #settings .pagehead h1{margin:3px 0;line-height:1.15}
 #settings .settings-search931{margin-bottom:4px;padding:0 9px;gap:6px}
@@ -893,7 +893,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=appearance] .appearance-glass11427{padding:0 9px;min-height:46px;box-sizing:border-box;margin:0}
 #settings [data-group931=appearance] #resetAppearance950{min-height:44px;padding:4px 9px;margin:0}
 
-/* 11.4.32: compact access and security; scoped to settings. */
+/* 11.4.33: compact access and security; scoped to settings. */
 #settings [data-group931=security] .settings-body931{padding:1px 9px 3px}
 #settings [data-group931=security] .settings-body931>.settings-card{padding:4px 0!important;margin:0;display:grid;gap:3px}
 #settings [data-group931=security] .settings-body931 h2{margin:0;line-height:1.2;font-size:.89rem}
@@ -903,7 +903,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=security] .full{margin:0;min-height:44px;padding:5px 8px;font-size:.85rem;line-height:1.2}
 #settings [data-group931=security] .settings-body931>.settings-filtered932{display:none!important}
 
-/* 11.4.32: compact cloud controls; compatibility nodes cannot become visible. */
+/* 11.4.33: compact cloud controls; compatibility nodes cannot become visible. */
 #cloudCompatibility11431,[id=chronosOpen900],#cloudSync101,#cloudDiag101{display:none!important}
 #settings [data-group931=cloud] .settings-body931{padding:2px 9px 6px}
 #settings .cloud-simple11431{display:grid;gap:4px;padding:4px 0!important;margin:0}
@@ -917,7 +917,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .cloud-summary11431 strong{font-size:.8rem;line-height:1.25}.cloud-summary11431 strong[data-state=ok]{color:var(--good,#78d5a3)}.cloud-summary11431 strong[data-state=error]{color:var(--danger,#ef8992)}
 .cloud-summary11431 p{margin:0;line-height:1.25}.cloud-summary11431 p:empty{display:none}.cloud-summary11431 button{min-height:44px;margin:2px 0 0}.cloud-summary11431 button[hidden]{display:none!important}
 
-/* 11.4.32: compact settings; a real checkbox drives an independent switch track. */
+/* 11.4.33: compact settings; a real checkbox drives an independent switch track. */
 #settings .cloud-toggle11431>span:first-child{flex:1;min-width:0;overflow-wrap:anywhere}
 #settings .cloud-toggle11431 .cloud-switch11432{display:grid;place-items:center;position:relative;flex:0 0 48px;width:48px;min-width:48px;max-width:48px;height:44px;min-height:44px;max-height:44px;gap:0;align-self:center;box-sizing:border-box}
 #settings #cloudAuto11431{position:absolute!important;inset:0!important;display:block!important;width:100%!important;min-width:0!important;max-width:none!important;height:100%!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0!important;opacity:0!important;z-index:2;cursor:pointer;appearance:none!important;-webkit-appearance:none!important;box-sizing:border-box!important}
@@ -947,3 +947,33 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .compact-notice11432 .push-actions11432{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;margin:0;padding:0}
 #settings .compact-notice11432 .push-actions11432 button{width:100%;min-width:0;min-height:44px;padding:5px;font-size:.78rem;margin:0;line-height:1.2}
 @media(max-width:360px){#settings :is(.compact-use11432,.compact-notice11432) .compact-field11432{grid-template-columns:1fr;gap:2px}#settings .compact-notice11432 .reminder-days span{font-size:.64rem}}
+
+/* 11.4.33: compact notification preferences, shared by settings and onboarding. */
+#noticeDialog11421[open]{position:fixed;inset:0;margin:auto;box-sizing:border-box;width:min(420px,calc(100% - 24px));max-width:calc(100% - 24px);height:max-content;max-height:calc(100dvh - 24px);padding:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--adaptive-radius,16px);color:var(--text);overflow:auto;overscroll-behavior:contain}
+#noticeDialog11421 h2{font-size:1.1rem;line-height:1.25;margin:0 0 6px;padding:0}
+#noticeDialog11421 .notice-actions11433{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:6px;margin:8px 0 0;padding:0}
+#noticeDialog11421 .notice-actions11433 button{width:100%;min-width:0;min-height:44px;margin:0;padding:6px;white-space:normal;font-size:.85rem;line-height:1.2}
+#noticeDialog11421 #noticeSave11421{background:var(--gold,var(--accent));border-color:var(--gold,var(--accent));color:#14273d;font-weight:750}
+#noticeDialog11421 #noticeSave11421:disabled{opacity:.55;cursor:not-allowed}
+#noticeDialog11421 #noticeError11421:empty{display:none}
+#noticeDialog11421 #noticeError11421:not(:empty){margin:5px 0 0;font-size:.78rem;line-height:1.25;overflow-wrap:anywhere}
+:is(#noticeDialog11421,#wizard11415) .notice-compact11433{display:grid;gap:0;margin:4px 0;min-width:0}
+:is(#noticeDialog11421,#wizard11415) .notice-compact11433 .notice-check11421{display:flex!important;justify-content:space-between;align-items:center;gap:6px;padding:0 2px!important;min-height:44px;box-sizing:border-box;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;color:var(--text);margin:0!important;min-width:0;cursor:pointer;font-size:.84rem;line-height:1.25}
+.notice-compact11433 .notice-copy11433{display:grid;gap:2px;flex:1;min-width:0;overflow-wrap:anywhere;padding:4px 0}
+.notice-compact11433 .notice-label11433{font-weight:650}
+.notice-compact11433 .notice-detail11433{font-size:.72rem;line-height:1.15;color:var(--muted);font-weight:400}
+:is(#noticeDialog11421,#wizard11415) .notice-compact11433 .notice-switch11433{display:grid;place-items:center;position:relative;flex:0 0 48px;width:48px;min-width:48px;max-width:48px;height:44px;min-height:44px;max-height:44px;gap:0;align-self:center;box-sizing:border-box}
+:is(#noticeDialog11421,#wizard11415) .notice-compact11433 .notice-switch11433 input[type=checkbox]{position:absolute!important;inset:0!important;display:block!important;width:100%!important;min-width:0!important;max-width:none!important;height:100%!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0!important;opacity:0!important;z-index:2;cursor:pointer;appearance:none!important;-webkit-appearance:none!important;box-sizing:border-box!important}
+.notice-compact11433 .notice-switch11433 input::before,.notice-compact11433 .notice-switch11433 input::after{content:none!important}
+.notice-compact11433 .notice-track11433{display:block;position:relative;box-sizing:border-box;width:42px;min-width:42px;max-width:42px;height:24px;min-height:24px;max-height:24px;border-radius:999px;border:1px solid var(--line);background:var(--surface,var(--card));pointer-events:none;flex:none;overflow:hidden}
+.notice-compact11433 .notice-track11433::before{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:var(--muted);box-sizing:border-box;transform:translateX(0)}
+.notice-compact11433 input:checked+.notice-track11433{background:var(--accent);border-color:var(--accent)}
+.notice-compact11433 input:checked+.notice-track11433::before{transform:translateX(18px);background:var(--bg)}
+.notice-compact11433 input:focus-visible+.notice-track11433{outline:2px solid var(--accent);outline-offset:2px}
+.notice-compact11433 input:disabled+.notice-track11433{opacity:.55}
+:is(#noticeDialog11421,#wizard11415) .notice-compact11433 .notice-modelbox11421{display:grid;gap:0;margin:3px 0 4px;padding:0 6px 0 10px;border-left:2px solid var(--accent);background:var(--surface);border-radius:6px;min-width:0}
+.notice-compact11433 .notice-models11421{display:grid;gap:0;min-width:0}
+.notice-compact11433 .notice-modelbox11421[hidden],.notice-compact11433 .notice-models11421[hidden],.notice-compact11433 .notice-modelbox11421 [hidden]{display:none!important}
+:is(#noticeDialog11421,#wizard11415) .notice-compact11433 :is(.notice-help11433,.notice-modelstatus11433){margin:5px 0 0!important;font-size:.72rem;line-height:1.3;color:var(--muted);overflow-wrap:anywhere}
+.notice-compact11433 .notice-models11421 button{min-height:44px;margin:4px 0;font-size:.82rem}
+@media(max-width:360px){#noticeDialog11421[open]{padding:11px}#noticeDialog11421 .notice-actions11433 button{font-size:.78rem}}

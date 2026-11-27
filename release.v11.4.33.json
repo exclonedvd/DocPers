@@ -1,0 +1,25 @@
+{
+  "version": "11.4.33",
+  "notes": "KAIROS 11.4.33 · Preferenze notifiche compatte",
+  "sha256": {
+    "index.html": "8d1a41b732af3983fd42cb794cf6bc6bcdd4cda2ec234e1e19ebcf45553f2ad1",
+    "app.v11.4.33.js": "1cf71ba79d47118d6ee34f470f73e0b0bd580f9ec6c44a76e2f212bbb06cd525",
+    "style.v11.4.33.css": "49984dee7790d5457c8dc971f23c47a7dc0bbe6dc67fbf8e32018c47a5568413",
+    "spettanze.v11.4.33.js": "d513c00b24b7b75d2f691ab4bfa303988c5df7c87b6092cee95678cdc1babc7b",
+    "shiftflow.v11.4.33.html": "4dc936572f30e1db9de90e8f853c99bd47ff8a908a4951e56a3b6996d26a87b7",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "1d5810b5ed66a248d3a48dfe2477ce16789c99fbe1b35a80ed7be24a21d9cb46"
+  },
+  "changes": [
+    "Popup preferenze notifiche compatto",
+    "Interruttori a dimensione fissa e selezione dei modelli",
+    "Stesso stile nella guida iniziale"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "11.4.31",
+  "notes": "KAIROS 11.4.31 · Cloud automatico",
+  "sha256": {
+    "index.html": "96f4ae4e7525e396cc76e4591c13bd49ae65d0fc3d993802f4ce2647d151cb53",
+    "app.v11.4.31.js": "6c3baa9d40efe0599e369a3c64821bd4a9b0a26d964d1f63b90d4804e31e6bad",
+    "style.v11.4.31.css": "50fb3c5ece0b09344217cd8bf308fb613520f860060ad2a001fd84463e3b79bf",
+    "spettanze.v11.4.31.js": "d513c00b24b7b75d2f691ab4bfa303988c5df7c87b6092cee95678cdc1babc7b",
+    "shiftflow.v11.4.31.html": "8d28d65a950c3703908a1de74838a170ecc190cb300ea00cdacf3a31015d7ef8",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "e958f175fb901ed49f45f518b69c18bb243d4fd877dedc6980869ba61b369745"
+  },
+  "changes": [
+    "Cloud e sincronizzazione compatti",
+    "Rimossi comandi manuali e interfaccia Chronos",
+    "Conservati controlli di conflitto e dati esistenti"
+  ]
+}

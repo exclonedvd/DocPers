@@ -1,0 +1,25 @@
+{
+  "version": "11.4.19",
+  "notes": "KAIROS 11.4.19 · Eliminazione profilo e account",
+  "sha256": {
+    "index.html": "bd1ddfc9226d9d8ab4375fae3667febe67d59868b1e787ce5fa1ac0f1a3bf5cf",
+    "app.v11.4.19.js": "2d7b12c9172d3b5e52e0b69a62e73a6497e648a89a02516dd1e857dc93c735ed",
+    "style.v11.4.19.css": "9e7d7d409fb1c0b5ad245af68491656bf564be17fbd8f82b3363add1d70c8906",
+    "spettanze.v11.4.19.js": "3599511e444d36b01794c2981bee3b20853fd02a0dbba5cb0ea9cd50f2aea605",
+    "shiftflow.v11.4.19.html": "cd95e2e47812642d136fb71c3ef1d9053cc55018047538f982b074ed8f109477",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "b77afbe6e72502472eaa7250db1c83ae7befe63b3f85477b99a3d8d0fa478712"
+  },
+  "changes": [
+    "Verifica aggiornamento, Elimina profilo ed Elimina account in fondo alle Impostazioni",
+    "Elimina profilo in arancione; Elimina account in rosso",
+    "Cancellazione del profilo con verifica password tramite funzione server separata, senza eliminare le credenziali"
+  ]
+}

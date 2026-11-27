@@ -836,3 +836,6 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 /* 11.4.24: align numbers and captions in the document summary counters. */
 .stats .stat,#deadlineStats .stat{ text-align:center; }
 .stats .stat>strong,.stats .stat>span,#deadlineStats .stat>strong,#deadlineStats .stat>span{display:block;width:100%;text-align:center;}
+
+/* 11.4.26: retired appearance controls remain non-interactive for legacy preference compatibility. */
+#settings .appearance-retired11426{display:none!important;visibility:hidden!important;pointer-events:none!important}

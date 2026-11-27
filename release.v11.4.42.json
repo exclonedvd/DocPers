@@ -1,0 +1,25 @@
+{
+  "version": "11.4.42",
+  "notes": "KAIROS 11.4.42 · Spettanze Home minimal",
+  "sha256": {
+    "index.html": "dbc4750da3c559bef0dfa765c838749b21bfc0d38f16805ae588b1136223562e",
+    "app.v11.4.42.js": "f9e6f4fefddf5cb11ec0b9e7a1bbc00beed25c81326b7fef40b6c3c3322b2472",
+    "style.v11.4.42.css": "843c0adb9ded4e14059f1572f93cd8f04e212d8eca9f8414dd083bb7d01593cd",
+    "spettanze.v11.4.42.js": "2516f736215cc922a6f6f609756341adbf257f74c8b85f0220d529196d402efc",
+    "shiftflow.v11.4.42.html": "28e9fa7f13f569740f68c73c8dd2fadb27baf38c58af6c928c628e801c68ffc1",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "dfa43fe0328960a2c6768546488d896ac8bc57771be779338beed16b4cef6406"
+  },
+  "changes": [
+    "Riquadri Home neutri e centrati, nomi completi",
+    "Dotazione iniziale per licenza ordinaria, 937, straordinaria/malattia, 104 e AP esistenti",
+    "Motore di calcolo invariato"
+  ]
+}

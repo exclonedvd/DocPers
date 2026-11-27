@@ -1,0 +1,25 @@
+{
+  "version": "11.4.30",
+  "notes": "KAIROS 11.4.30 · Accesso e sicurezza",
+  "sha256": {
+    "index.html": "63c1d832338b944fc8f1beefefa86cfe8854851e8826f573890b23d529ff2ed0",
+    "app.v11.4.30.js": "95910404a839be0a2c84e1bdd09125a8a8b3eff7a360d6226270b9e6cb828567",
+    "style.v11.4.30.css": "5896aaa9a9df462add887f86d4171d434701bab8447fa03f7c31b2a256aabe1c",
+    "spettanze.v11.4.30.js": "d513c00b24b7b75d2f691ab4bfa303988c5df7c87b6092cee95678cdc1babc7b",
+    "shiftflow.v11.4.30.html": "c104c30638e8c4a70c9574d9e6f3d39053f8439ab73bf4ede07cc1c35e0ef07c",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "1e57e0e5f4cdf1bc29feed7103b89e4f51bfeb656955e8e09c08ddeee77b53c4"
+  },
+  "changes": [
+    "Rimossi Privacy Shield e personalizzazione accesso",
+    "Sezione Accesso e sicurezza compatta",
+    "Gestione sessioni e guida profilo mantenute"
+  ]
+}

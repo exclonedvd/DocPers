@@ -758,7 +758,7 @@ main .empty:not([hidden]){padding:12px 8px;margin-block:5px;border:1px dashed va
 #update584 .tools button{width:100%;min-height:42px;margin:0;padding:7px 9px;font-size:14px;line-height:1.25;border-radius:10px}
 #update584 #updateProgress910{overflow-wrap:anywhere}
 
-/* 11.4.12 | Single compact personal identity panel, scoped to Scheda. */
+/* 11.4.14 | Single compact personal identity panel, scoped to Scheda. */
 #detail .detail-person1143{display:flex;flex-direction:column;align-items:stretch;gap:9px;padding:11px 12px;margin-bottom:10px;min-width:0}
 #detail .detail-person1143 .detail-identity{gap:10px;align-items:center;width:100%}
 #detail .detail-person1143 .detail-identity .avatar-preview{display:grid;width:43px;height:43px;min-width:43px;flex:0 0 43px}
@@ -775,10 +775,13 @@ main .empty:not([hidden]){padding:12px 8px;margin-block:5px;border:1px dashed va
 #detail #detailFields dd{font-size:.86rem;line-height:1.3;margin:2px 0 0;font-weight:650;overflow-wrap:anywhere}
 @media(min-width:761px){#detail #detailFields{grid-template-columns:1fr 1fr 2fr}#detail #detailFields>div:last-child{grid-column:auto}}
 
-/* 11.4.12: prevent scroll chaining behind native modal dialogs, including iOS. */
+/* 11.4.14: prevent scroll chaining behind native modal dialogs, including iOS. */
 html.kairos-modal-lock1145{overflow:hidden!important;overscroll-behavior:none!important;scroll-behavior:auto!important}
 html.kairos-modal-lock1145:not(.kairos-modal-touch1145) body{overflow:hidden!important}
 html.kairos-modal-gutter1145{scrollbar-gutter:stable}
 html.kairos-modal-lock1145.kairos-modal-touch1145 body{position:fixed!important;top:var(--kairos-lock-top,0px)!important;left:var(--kairos-lock-left,0px)!important;right:var(--kairos-lock-gap,0px)!important;width:auto!important;overflow:hidden!important;overscroll-behavior:none!important}
 dialog[open]{overscroll-behavior:contain!important; -webkit-overflow-scrolling:touch;}
 
+
+/* Ultimo comando delle impostazioni, fuori dai gruppi richiudibili. */
+#settingsUpdate11414{margin-top:12px;min-width:0}#settingsUpdate11414[hidden]{display:none!important}#settingsUpdate11414 #updateCheck584{width:100%;min-height:44px}#settingsUpdate11414 #diagUpdate584:empty{display:none}#settingsUpdate11414 #diagUpdate584:not(:empty){margin:6px 0 0;text-align:center}

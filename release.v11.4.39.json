@@ -1,0 +1,25 @@
+{
+  "version": "11.4.39",
+  "notes": "KAIROS 11.4.39 · Recuperi oltre il quinto giorno",
+  "sha256": {
+    "index.html": "3090b9257ae14ac4fa0338a45f08a44520555ed8684a467b8e72281a18754073",
+    "app.v11.4.39.js": "509f38ec9b9b7b70c13915b6b9da740daeb1203fc4f1a606f403e13dbe069c34",
+    "style.v11.4.39.css": "c988683924ddcb80a7e4fa214aa1aa308923d2e842c66b205b303b0a71d70a41",
+    "spettanze.v11.4.39.js": "214ad19efc0bc899a4f196557dd5fd0d7760af03803235de240b9f9a342bb63f",
+    "shiftflow.v11.4.39.html": "f8af9b4572ffc5c6040b0c8bb69ac50b755e7488d4785692db886c095536ef28",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "7036e4250a91f3e616aef11ced52f4f82961beae3f19c3be1e3dea4e464f7be2"
+  },
+  "changes": [
+    "Copertura H24/H12 oltre il quinto giorno con RC della stessa rotazione",
+    "Festività consecutive senza consumo RC",
+    "Stop alla nuova rotazione o al rientro in servizio"
+  ]
+}

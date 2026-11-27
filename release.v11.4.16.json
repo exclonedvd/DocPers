@@ -1,0 +1,25 @@
+{
+  "version": "11.4.16",
+  "notes": "KAIROS 11.4.16 · Pulsanti Impostazioni",
+  "sha256": {
+    "index.html": "90134c0fa95ed69fa009ae99dbda2ec5c8624986be268b26456f6496059a1217",
+    "app.v11.4.16.js": "363c56c7c33f3f764b0ce6f6c81584e2f993651d168833653a08cfd11c72561f",
+    "style.v11.4.16.css": "a4c1f121d452d5ccb91c6450f82e98c51cd1e39bb03fec6f78d1799e092085f2",
+    "spettanze.v11.4.16.js": "3599511e444d36b01794c2981bee3b20853fd02a0dbba5cb0ea9cd50f2aea605",
+    "shiftflow.v11.4.16.html": "a49ce2b079bb9056d472f27e348faee28dd025ad572b2db708bca11a9a7b46fc",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "b8efefe82ce53f26e35a7b9e07a385f4ad3457427f5dab66b7d6f9183330297f"
+  },
+  "changes": [
+    "Pulsante Elimina account rosso con testo bianco",
+    "Pulsante Verifica aggiornamento in giallo oro KAIROS",
+    "Conferma di cancellazione in rosso; funzioni invariate"
+  ]
+}

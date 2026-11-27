@@ -1,0 +1,25 @@
+{
+  "version": "11.4.6",
+  "notes": "KAIROS 11.4.6 · Schermo intero nel calendario",
+  "sha256": {
+    "index.html": "042caf7c1e0c945162cded3e05b8320709ea8b99f869fc51ef7b5c8a530c1a72",
+    "app.v11.4.6.js": "6aca867d7f277192c8ea95ee27cb77d0da1e2f5ef7b20eba315098df8f14d7df",
+    "style.v11.4.6.css": "1baa6bb1b1d59c7b7775b962d1c71f4ee24d902543f38decc32ca85ad513dcc2",
+    "spettanze.v11.4.6.js": "3599511e444d36b01794c2981bee3b20853fd02a0dbba5cb0ea9cd50f2aea605",
+    "shiftflow.v11.4.6.html": "f1209e19845fbbb62c6f188ff56c32a1f582ad11ae6589dd9d155f505e07f31d",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "380ebb445f0cc8f58203e223807288f630b459cb60991a520206fa7ed0682751"
+  },
+  "changes": [
+    "Pulsante schermo intero prima della freccia sinistra del calendario",
+    "Stesso pulsante per uscire dalla modalità a schermo intero",
+    "Barra superiore libera dal comando calendario"
+  ]
+}

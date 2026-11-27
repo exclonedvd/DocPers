@@ -757,3 +757,20 @@ main .empty:not([hidden]){padding:12px 8px;margin-block:5px;border:1px dashed va
 #update584 .tools{display:grid;grid-template-columns:minmax(0,1fr);gap:7px;margin:0;width:100%;}
 #update584 .tools button{width:100%;min-height:42px;margin:0;padding:7px 9px;font-size:14px;line-height:1.25;border-radius:10px}
 #update584 #updateProgress910{overflow-wrap:anywhere}
+
+/* 11.4.3 | Single compact personal identity panel, scoped to Scheda. */
+#detail .detail-person1143{display:flex;flex-direction:column;align-items:stretch;gap:9px;padding:11px 12px;margin-bottom:10px;min-width:0}
+#detail .detail-person1143 .detail-identity{gap:10px;align-items:center;width:100%}
+#detail .detail-person1143 .detail-identity .avatar-preview{display:grid;width:43px;height:43px;min-width:43px;flex:0 0 43px}
+#detail .detail-person1143 .detail-identity .eyebrow{font-size:.62rem;line-height:1.15;letter-spacing:.055em}
+#detail .detail-person1143 .detail-identity h1{font-size:clamp(.95rem,3.8vw,1.25rem);line-height:1.2;margin:2px 0}
+#detail .detail-person1143 .name-with-rank{gap:5px;flex-wrap:nowrap}
+#detail .detail-person1143 .name-with-rank .rank-insignia{width:20px;height:25px;max-width:20px;max-height:25px;flex:0 0 20px}
+#detail .detail-person1143 #detailSubtitle{font-size:.73rem;line-height:1.3;margin:0;overflow-wrap:anywhere}
+#detail .detail-person-fields1143{border-top:1px solid var(--line);padding-top:8px;margin:0;min-width:0;width:100%}
+#detail #detailFields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 12px;margin:0}
+#detail #detailFields>div{min-width:0;padding:0;border:0;background:transparent}
+#detail #detailFields>div:last-child{grid-column:1/-1}
+#detail #detailFields dt{font-size:.68rem;line-height:1.2;font-weight:550;color:var(--muted)}
+#detail #detailFields dd{font-size:.86rem;line-height:1.3;margin:2px 0 0;font-weight:650;overflow-wrap:anywhere}
+@media(min-width:761px){#detail #detailFields{grid-template-columns:1fr 1fr 2fr}#detail #detailFields>div:last-child{grid-column:auto}}

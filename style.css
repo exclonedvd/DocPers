@@ -507,7 +507,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,t
 #login[data-background930=night]{--login-bg930:#111923;--login-panel930:#25313d;--login-fg930:#f3f6fb}#login[data-background930=green]{--login-bg930:#1c3026;--login-panel930:#2d4435;--login-fg930:#f2f8ed}#login[data-background930=royal]{--login-bg930:#172c4e;--login-panel930:#294366;--login-fg930:#f0f5ff}#login[data-background930=gold]{--login-bg930:#2a2218;--login-panel930:#473824;--login-fg930:#fff1d6}#login[data-background930]:not([data-background930=original]){background:var(--login-bg930);color:var(--login-fg930)}#login[data-background930]:not([data-background930=original]) :is(h1,p,label,small,.eyebrow,.lock-date,.textbutton){color:var(--login-fg930)}#login[data-background930]:not([data-background930=original]) :is(input:not([type=checkbox]),button.outline){background:var(--login-panel930);color:var(--login-fg930);border-color:var(--login-fg930)}#login[data-background930]:not([data-background930=original]) .primary{background:var(--login-fg930);color:var(--login-bg930)}#login[data-logo930=false] :is(.lock-hero img,.inf-login-brand img){display:none!important}#login[data-clock930]:not([data-clock930=original]) :is(#lockClock,#lockDate){display:none!important}#loginClock930{display:grid;justify-items:center;gap:5px;margin:10px 0 15px}#loginClock930[hidden]{display:none!important}#loginClock930 strong{font-size:1.8rem;font-variant-numeric:tabular-nums}#loginClock930 .analog920{width:76px;height:76px;color:currentColor}#loginAppearance930{margin-top:8px}
 
 /* 9.3.1 Settings Refinement: compact grouped disclosure navigation */
-#settings .pagehead{margin:0 0 12px}#settings #settingsBack{display:none}#settings .pagehead .eyebrow{display:none}#settings .pagehead p{margin:4px 0 0}#settings .settings-search931{display:flex;align-items:center;gap:8px;position:relative;border:1px solid var(--line);border-radius:12px;background:var(--card);padding:0 10px;margin:0 0 12px;min-width:0}#settings .settings-search931 svg{width:19px;height:19px;flex:none;color:var(--muted)}#settings .settings-search931 input{border:0;background:transparent;box-shadow:none;padding:9px 0;margin:0;min-width:0;min-height:44px;width:100%;font-size:16px;color:var(--text)}#settings .settings-search931 input::-webkit-search-cancel-button{display:none}#settings .settings-search931 button{border:0;background:transparent;color:var(--muted);font-size:1.35rem;width:44px;height:44px;padding:0;flex:none}#settings .sr-settings931{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);margin:0}
+#settings .pagehead{margin:0 0 12px}#settings #settingsBack{display:none}#settings .pagehead .eyebrow{display:none}#settings .pagehead p{margin:4px 0 0}
 #settingsGroups931{display:grid;gap:8px;min-width:0;align-items:start}#settings .settings-group931{margin:0;padding:0;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:var(--adaptive-radius,12px);overflow:clip}#settings .settings-group931[hidden]{display:none!important}#settings .settings-group931>summary{display:grid;grid-template-columns:34px minmax(0,1fr) 12px;align-items:center;gap:10px;padding:10px 13px;min-height:58px;box-sizing:border-box;cursor:pointer;list-style:none;color:var(--text);font-size:1rem}#settings .settings-group931>summary::-webkit-details-marker{display:none}#settings .settings-group931>summary::marker{content:''}#settings .settings-group931>summary>svg{width:22px;height:22px;margin:auto;color:var(--accent)}#settings .settings-title931{display:grid;gap:3px;min-width:0}#settings .settings-title931 strong{font-size:.99rem;line-height:1.25;font-weight:700}#settings .settings-title931 small{color:var(--muted);font-size:.77rem;line-height:1.3;font-weight:400;overflow-wrap:anywhere}#settings .settings-chevron931{width:8px;height:8px;border-right:1.7px solid var(--muted);border-bottom:1.7px solid var(--muted);transform:rotate(-45deg);justify-self:center}#settings .settings-group931[open]>summary{border-bottom:1px solid var(--line)}#settings .settings-group931[open]>summary .settings-chevron931{transform:rotate(45deg)}#settings .settings-body931{display:grid;gap:0;padding:0 12px;min-width:0}#settings .settings-body931>.settings-card{min-width:0;width:100%;box-sizing:border-box;margin:0;padding:13px 0!important;box-shadow:none!important;background:transparent!important;border:none!important;border-radius:0!important;border-bottom:1px solid var(--line)!important}#settings .settings-body931>.settings-card:last-child{border-bottom:0!important}#settings .settings-body931 h2{font-size:1rem;line-height:1.3;margin:0 0 7px}#settings .settings-body931 h3{font-size:.88rem;margin:12px 0 5px}#settings .settings-body931 p{margin:5px 0;line-height:1.4}#settings .settings-body931 .adaptive-form660{gap:7px;margin:5px 0 9px;grid-template-columns:repeat(2,minmax(0,1fr))}#settings .settings-body931 label{min-width:0;overflow-wrap:anywhere}#settings .settings-body931 select,#settings .settings-body931 input:not([type=checkbox]):not([type=radio]){min-width:0;max-width:100%;min-height:44px;font-size:16px}#settings .settings-body931 button:not(.inf-move-buttons903 button){min-height:44px}#settings .settings-body931 details:not(.settings-group931){padding:8px;margin:7px 0;border-radius:10px}#settings .settings-body931 details>summary{line-height:1.35;min-height:28px}#settings .settings-body931 .inf-settings903{padding:8px;margin:5px 0}#settings #infinityWidgetControls700{gap:10px;margin-top:8px}#settings .settings-body931 .separate{margin-top:6px}#settings .settings-body931 .full{margin-top:5px}#settings .settings-body931 .settings-description{margin:5px 0}#settings .settings-body931 #settings930{margin-top:0}
 @media(min-width:760px){#settingsGroups931{grid-template-columns:repeat(2,minmax(0,1fr))}#settings .settings-group931[open]{grid-column:1/-1}#settings .settings-body931{padding:0 16px}#settings .settings-body931 .adaptive-form660{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
@@ -515,7 +515,6 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,t
 #settings .settings-body931>.settings-card932{padding:10px 0!important}
 #settings .settings-body931 h2{font-size:.92rem;margin:0 0 5px;font-weight:650}
 #settings .settings-body931 h3{font-size:.83rem;margin:6px 0 4px}
-#settings .settings-body931 .settings-filtered932{display:none!important}
 #settings .settings-body931 details:not(.settings-group931){padding:0!important;margin:3px 0!important;border:0!important;background:transparent!important;box-shadow:none!important;border-radius:0!important}
 #settings .settings-body931 details>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;padding:6px 0;font-size:.89rem;font-weight:600;cursor:pointer}
 #settings .settings-body931 details>summary::-webkit-details-marker{display:none}
@@ -561,7 +560,6 @@ html.shield-active940 body>*:not(#shieldDialog940){visibility:hidden!important}h
 
 /* 9.4.1: compact settings, regardless of the dashboard density. Keep native input text at 16px to avoid iOS focus zoom. */
 #settings .pagehead{margin-bottom:7px}#settings .pagehead p{margin-top:2px}
-#settings .settings-search931{margin-bottom:7px}
 #settingsGroups931{gap:6px}
 #settings .settings-group931>summary{grid-template-columns:27px minmax(0,1fr) 11px;gap:8px;padding:6px 10px;min-height:48px;scroll-margin-top:90px}
 #settings .settings-group931>summary>svg{width:19px;height:19px}
@@ -840,7 +838,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 /* 11.4.26: retired appearance controls remain non-interactive for legacy preference compatibility. */
 #settings .appearance-retired11426{display:none!important;visibility:hidden!important;pointer-events:none!important}
 
-/* 11.4.35 compact appearance */
+/* 11.4.36 compact appearance */
 #settings .appearance-compact11427{display:grid;gap:8px;padding:4px 0!important;border:0!important}
 #settings .appearance-section11427,#settings .appearance-glass11427,#settings #resetAppearance950{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0;min-width:0}
 #settings .appearance-section11427>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:10px 12px;font-weight:650;cursor:pointer}
@@ -866,11 +864,9 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .appearance-glass11427{display:flex!important;align-items:center;justify-content:space-between;padding:10px 12px;min-height:44px}
 #settings #resetAppearance950{min-height:44px;padding:8px 12px}
 
-/* 11.4.35: compact settings only; keep a 44px minimum touch target. */
+/* 11.4.36: compact settings only; keep a 44px minimum touch target. */
 #settings .pagehead{margin-bottom:4px}
 #settings .pagehead h1{margin:3px 0;line-height:1.15}
-#settings .settings-search931{margin-bottom:4px;padding:0 9px;gap:6px}
-#settings .settings-search931 input{padding:6px 0;min-height:44px}
 #settingsGroups931{gap:3px}
 #settings .settings-group931>summary{min-height:44px;padding:3px 9px;gap:7px}
 #settings .settings-title931{gap:0}
@@ -893,7 +889,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=appearance] .appearance-glass11427{padding:0 9px;min-height:46px;box-sizing:border-box;margin:0}
 #settings [data-group931=appearance] #resetAppearance950{min-height:44px;padding:4px 9px;margin:0}
 
-/* 11.4.35: compact access and security; scoped to settings. */
+/* 11.4.36: compact access and security; scoped to settings. */
 #settings [data-group931=security] .settings-body931{padding:1px 9px 3px}
 #settings [data-group931=security] .settings-body931>.settings-card{padding:4px 0!important;margin:0;display:grid;gap:3px}
 #settings [data-group931=security] .settings-body931 h2{margin:0;line-height:1.2;font-size:.89rem}
@@ -901,9 +897,8 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=security] #aegisSession850{font-size:.78rem}
 #settings [data-group931=security] .micro{font-size:.72rem;color:var(--muted)}
 #settings [data-group931=security] .full{margin:0;min-height:44px;padding:5px 8px;font-size:.85rem;line-height:1.2}
-#settings [data-group931=security] .settings-body931>.settings-filtered932{display:none!important}
 
-/* 11.4.35: compact cloud controls; compatibility nodes cannot become visible. */
+/* 11.4.36: compact cloud controls; compatibility nodes cannot become visible. */
 #cloudCompatibility11431,[id=chronosOpen900],#cloudSync101,#cloudDiag101{display:none!important}
 #settings [data-group931=cloud] .settings-body931{padding:2px 9px 6px}
 #settings .cloud-simple11431{display:grid;gap:4px;padding:4px 0!important;margin:0}
@@ -917,7 +912,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .cloud-summary11431 strong{font-size:.8rem;line-height:1.25}.cloud-summary11431 strong[data-state=ok]{color:var(--good,#78d5a3)}.cloud-summary11431 strong[data-state=error]{color:var(--danger,#ef8992)}
 .cloud-summary11431 p{margin:0;line-height:1.25}.cloud-summary11431 p:empty{display:none}.cloud-summary11431 button{min-height:44px;margin:2px 0 0}.cloud-summary11431 button[hidden]{display:none!important}
 
-/* 11.4.35: compact settings; a real checkbox drives an independent switch track. */
+/* 11.4.36: compact settings; a real checkbox drives an independent switch track. */
 #settings .cloud-toggle11431>span:first-child{flex:1;min-width:0;overflow-wrap:anywhere}
 #settings .cloud-toggle11431 .cloud-switch11432{display:grid;place-items:center;position:relative;flex:0 0 48px;width:48px;min-width:48px;max-width:48px;height:44px;min-height:44px;max-height:44px;gap:0;align-self:center;box-sizing:border-box}
 #settings #cloudAuto11431{position:absolute!important;inset:0!important;display:block!important;width:100%!important;min-width:0!important;max-width:none!important;height:100%!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0!important;opacity:0!important;z-index:2;cursor:pointer;appearance:none!important;-webkit-appearance:none!important;box-sizing:border-box!important}
@@ -930,7 +925,6 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings #cloudAuto11431:disabled+.cloud-track11432{opacity:.55}
 #settings :is(.compact-use11432,.compact-notice11432){padding:2px 9px 5px}
 #settings :is(.compact-use11432,.compact-notice11432)>.settings-card{display:grid;gap:4px;margin:0;padding:3px 0!important;min-width:0}
-#settings :is(.compact-use11432,.compact-notice11432)>.settings-filtered932{display:none!important}
 #settings :is(.compact-use11432,.compact-notice11432) h2{font-size:.86rem;line-height:1.2;margin:0}
 #settings :is(.compact-use11432,.compact-notice11432) p{font-size:.74rem;line-height:1.25;margin:0}
 #settings :is(.compact-use11432,.compact-notice11432) .compact-field11432{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:center;gap:5px;margin:0;font-size:.78rem;line-height:1.2;min-width:0}
@@ -948,7 +942,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .compact-notice11432 .push-actions11432 button{width:100%;min-width:0;min-height:44px;padding:5px;font-size:.78rem;margin:0;line-height:1.2}
 @media(max-width:360px){#settings :is(.compact-use11432,.compact-notice11432) .compact-field11432{grid-template-columns:1fr;gap:2px}#settings .compact-notice11432 .reminder-days span{font-size:.64rem}}
 
-/* 11.4.35: compact notification preferences, shared by settings and onboarding. */
+/* 11.4.36: compact notification preferences, shared by settings and onboarding. */
 #noticeDialog11421[open]{position:fixed;inset:0;margin:auto;box-sizing:border-box;width:min(420px,calc(100% - 24px));max-width:calc(100% - 24px);height:max-content;max-height:calc(100dvh - 24px);padding:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--adaptive-radius,16px);color:var(--text);overflow:auto;overscroll-behavior:contain}
 #noticeDialog11421 h2{font-size:1.1rem;line-height:1.25;margin:0 0 6px;padding:0}
 #noticeDialog11421 .notice-actions11433{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:6px;margin:8px 0 0;padding:0}
@@ -978,7 +972,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .notice-compact11433 .notice-models11421 button{min-height:44px;margin:4px 0;font-size:.82rem}
 @media(max-width:360px){#noticeDialog11421[open]{padding:11px}#noticeDialog11421 .notice-actions11433 button{font-size:.78rem}}
 
-/* 11.4.35: Home & widgets settings only. Preserve all controls and their IDs. */
+/* 11.4.36: Home & widgets settings only. Preserve all controls and their IDs. */
 #settings .home-compact11434{padding:0 9px 3px;gap:0}
 #settings .home-compact11434>.home-group11434{padding:0!important;margin:0!important;border-bottom:1px solid var(--line)!important}
 #settings .home-compact11434>.home-group11434:last-child{border-bottom:0!important}
@@ -1015,7 +1009,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .home-inner11434 .appearance-retired11426{display:none!important}
 @media(max-width:360px){#settings .home-inner11434{padding:0 4px 4px}#settings .home-inner11434 .home-layout-field11434,#settings .home-inner11434 .adaptive-row660,#settings .home-inner11434 .e101-fields label{grid-template-columns:minmax(0,1fr);gap:1px}}
 
-/* 11.4.35 Countdown: accordion with accessible fixed-size controls. */
+/* 11.4.36 Countdown: accordion with accessible fixed-size controls. */
 #countDialog920.count-compact11435{padding:14px;max-width:460px;box-sizing:border-box}
 #countDialog920 .sectionhead{margin:0 0 4px;gap:6px;align-items:center}
 #countDialog920 .sectionhead h2{font-size:1.1rem;margin:0}

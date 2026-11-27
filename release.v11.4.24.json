@@ -1,0 +1,25 @@
+{
+  "version": "11.4.24",
+  "notes": "KAIROS 11.4.24 · Centro scadenze e navigazione notifiche",
+  "sha256": {
+    "index.html": "671c96c8f53cb51713d6c5ba401d1a1f4d92e971c8b24c46c896f7bbb6dc7971",
+    "app.v11.4.24.js": "613215020eed09203d130e07daa177ef697eba524f5508dc0de067912cf6f0c4",
+    "style.v11.4.24.css": "ef6a71f8c9843da69ef956a909471f1816fdc1cbeac612109dedb982ff9d74ad",
+    "spettanze.v11.4.24.js": "d513c00b24b7b75d2f691ab4bfa303988c5df7c87b6092cee95678cdc1babc7b",
+    "shiftflow.v11.4.24.html": "ea217f11fe01cb693c08be2143cb7197fdd3177ea807737b535de1d4d420a403",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "a1c6b6970aa8f348d47654da88b4982008f8187b7c0d0fa097d04f4ff8c2112f"
+  },
+  "changes": [
+    "Contatori del Centro scadenze centrati",
+    "Chiusura notifiche con ritorno alla pagina di origine e ripristino della Scheda",
+    "Gestione coerente del ritorno da una notifica e del gesto indietro"
+  ]
+}

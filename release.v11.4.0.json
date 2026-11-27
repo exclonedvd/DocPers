@@ -1,0 +1,27 @@
+{
+  "version": "11.4.0",
+  "notes": "KAIROS 11.4.0 · Clean & Optimization",
+  "sha256": {
+    "index.html": "19c840d84e9cd801c3368cee2bb6d0045831231f178404bc613413e37a3e9397",
+    "app.v11.4.0.js": "6e78d5e948764fc3174ccd88a430e469b0b55d34d3f8bbc341ba21f9c43edcfd",
+    "style.v11.4.0.css": "7c78ccf6d72870ab955b938fe1226f5f2e46d08b46323ca65f8c96719a20bfcb",
+    "spettanze.v11.4.0.js": "3599511e444d36b01794c2981bee3b20853fd02a0dbba5cb0ea9cd50f2aea605",
+    "shiftflow.v11.4.0.html": "9c21ca4cd02aaee615da8e222767dd70b2c39f88de86ee668b23f32026ed3681",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "06449fdb28103e13a457c4e1c2237a8acb46f8ba7afd060c9549b4fb499ef846"
+  },
+  "changes": [
+    "Eliminati file obsoleti e duplicati delle release storiche",
+    "Cache di avvio ridotta alle risorse correnti e tre piccoli file di compatibilità",
+    "Conservate le due release precedenti e le rispettive cache",
+    "Download cache in gruppi di quattro; riparazione con timeout e retry",
+    "Motore spettanze, calendario, profili e database invariati"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "11.4.43",
+  "notes": "KAIROS 11.4.43 · Stop al primo giorno scoperto",
+  "sha256": {
+    "index.html": "bcf7ecccdcebdcf353b808d164468d1853aea7703ef0b5d1a8db47464cd16d8f",
+    "app.v11.4.43.js": "a652e761ea2eca071500fe27cc4bd50609b9258a958b6e75d4445decd10e7af2",
+    "style.v11.4.43.css": "86ecf74ab86b544c4294a03587d6b442d7c74ae26389b5aa64c4ea9d75c8ac75",
+    "spettanze.v11.4.43.js": "64360b6c928de6a2131193aa5c25944726428c3fcfebb60bfa628ec05534820b",
+    "shiftflow.v11.4.43.html": "bfd0f7740cf998313106f392428155951668ab15a944f744737fa183b789a503",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "a8b3bdb02ce26e34e91ab9b27949152e9cfb416bff4a1e75d59b3269265994bd"
+  },
+  "changes": [
+    "H12/H24: stop automatico alla prima giornata lavorativa non copribile per intero",
+    "Ore residue conservate nel saldo, nessun recupero automatico successivo fino alla nuova montata",
+    "Festivi, licenze, maturazioni e compensazione futura invariati; ultima rotazione limitata alla settimana del primo giorno scoperto"
+  ]
+}

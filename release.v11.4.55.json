@@ -1,0 +1,24 @@
+{
+  "version": "11.4.55",
+  "notes": "KAIROS 11.4.55 · Etichette calendario leggibili",
+  "sha256": {
+    "index.html": "5b09955784a458f5b88cc82cb373edecadf96a5f03e50ea0fa901c9ea24b73d3",
+    "app.v11.4.55.js": "c2d706e33ee8daa0c68214af37727ce8f89ae5775ae2b31c6708676363b99325",
+    "style.v11.4.55.css": "f5f993c570d16d334ea29f2ff6f63179cce35c1a0c79b986c17dcfc2e68e217d",
+    "spettanze.v11.4.55.js": "3d5d2538a0bc30d2fd162f8d83f545b6d6a7a22a33809b431d88caf7e765bf67",
+    "shiftflow.v11.4.55.html": "16f08841fc6aa4e1450986a4e62a6287971b7b1a2bff88ccd76a258a9eb5a113",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "f6fbb5c6209496865c9142008c98a3243fb4f41827df544008e9fedea27f09d9"
+  },
+  "changes": [
+    "Dimensionamento uniforme delle etichette mensili",
+    "Adattamento del testo allo spazio disponibile senza alterare le celle"
+  ]
+}

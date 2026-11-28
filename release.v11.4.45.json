@@ -1,0 +1,25 @@
+{
+  "version": "11.4.45",
+  "notes": "KAIROS 11.4.45 · Statistiche e incompatibilità assegnazioni",
+  "sha256": {
+    "index.html": "5f0cbc7f001ee2fac53c92dac2d4756f1d166c5ded7894b4a2249b329e04bfd6",
+    "app.v11.4.45.js": "481f159beaeef879d74d8b741642b1a574b9d61e62e753906bc0d62fb7e7c021",
+    "style.v11.4.45.css": "0b7281844941d36b50b952ad36bc28d1e158afed0589d28a13b58165dc29aa07",
+    "spettanze.v11.4.45.js": "0480b0b60ef988a4192008efa7a5206525913b63f073347d4f8d4d477c6170a8",
+    "shiftflow.v11.4.45.html": "32d07df117a9261f096354e90a2b5301bb8f2c313e705b9a9772814a244da042",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "54592878b737a6086a68ccf6799de349173867688242a3f4d094b1f862e68efc"
+  },
+  "changes": [
+    "Statistiche: periodo centrato, frecce e ritorno al periodo corrente",
+    "Blocco servizio e spettanza nella stessa giornata, anche a cavallo della mezzanotte",
+    "Verifica preventiva su assegnazioni singole, multiple e rotazioni; dati esistenti conservati"
+  ]
+}

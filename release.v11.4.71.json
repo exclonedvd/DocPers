@@ -1,0 +1,25 @@
+{
+  "version": "11.4.71",
+  "notes": "KAIROS 11.4.71 · Calendario Mensile iPhone",
+  "sha256": {
+    "index.html": "193a3d5d41dc67470d93638faea862f6c1e310bb0f0210e20e7630033401608f",
+    "app.v11.4.71.js": "a1db2349b990b91f02f66c6cb5879c3c406a7a4863df6a0b56e2d092d237ed58",
+    "style.v11.4.71.css": "8a1f6ad67d44b77984593da199a3c8fe181d8b851240e80c161d153d6d939640",
+    "spettanze.v11.4.71.js": "ab46bdda132cedb76dd9478c162d5b4d8a5e1c90fdb3b2c7fe386d416c041396",
+    "shiftflow.v11.4.71.html": "b5cf5f0f40ffe3dc6c91c65ac69d9c5dcd58c53e5ec3ecc6691d1d48295f788d",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "9f4d818ec3b4bf9656127d97dee5497b361a2d191e542f28cdffbf36a216eece"
+  },
+  "changes": [
+    "Visualizzazione mensile unica, anche per vecchie preferenze",
+    "Viewport Turni vincolato allo spazio disponibile e intestazione compatta",
+    "Barra operativa e regole di calcolo invariate"
+  ]
+}

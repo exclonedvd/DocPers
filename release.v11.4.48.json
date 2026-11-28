@@ -1,0 +1,25 @@
+{
+  "version": "11.4.48",
+  "notes": "KAIROS 11.4.48 · Calendario operativo a schermo intero",
+  "sha256": {
+    "index.html": "88b738a41b31f778a1711f3d8cac43965cb66a474a0d30ffc44f209d52911518",
+    "app.v11.4.48.js": "0866e7d7b63b53b21cfb15c95e04b373117cdd329dc71980f8744984eacdbbab",
+    "style.v11.4.48.css": "6887243b9d7af7a08e124df7bac1c222e7608af5abfd7bd091b07d8e7e0727d7",
+    "spettanze.v11.4.48.js": "0480b0b60ef988a4192008efa7a5206525913b63f073347d4f8d4d477c6170a8",
+    "shiftflow.v11.4.48.html": "67525c400451c13eb24abf7951fba7385ed3a202af812c18ca01652708ee9f63",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "ceae179af9d1123ea912cd7f4c77af2108a5d7ae5455c5e4e0653d8b638fea79"
+  },
+  "changes": [
+    "Vista mensile a schermo intero senza selettore dei periodi",
+    "Barra di inserimento rapido e strumenti sotto il calendario",
+    "Ripristino della visualizzazione precedente all’uscita"
+  ]
+}

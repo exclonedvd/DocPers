@@ -1,7 +1,7 @@
-// Kairos 11.4.47: static shell only. Never cache API responses, tokens or personal records.
-const SHELL='kairos-shell-11.4.47',ROOT=new URL('./',self.registration.scope);
-const FILES=["index.html","app.v11.4.47.js","style.v11.4.47.css","spettanze.v11.4.47.js","shiftflow.v11.4.47.html","manifest.webmanifest","kairos-logo.png","kairos-icon-192.png","kairos-icon-512.png","kairos-apple-180.png","spettanze.v11.2.0.js","spettanze.v11.2.1.js","spettanze.v5.11.0.js"];
-const RELEASE='release.v11.4.47.json';
+// Kairos 11.4.48: static shell only. Never cache API responses, tokens or personal records.
+const SHELL='kairos-shell-11.4.48',ROOT=new URL('./',self.registration.scope);
+const FILES=["index.html","app.v11.4.48.js","style.v11.4.48.css","spettanze.v11.4.48.js","shiftflow.v11.4.48.html","manifest.webmanifest","kairos-logo.png","kairos-icon-192.png","kairos-icon-512.png","kairos-apple-180.png","spettanze.v11.2.0.js","spettanze.v11.2.1.js","spettanze.v5.11.0.js"];
+const RELEASE='release.v11.4.48.json';
 const urls=FILES.map(f=>new URL(f,ROOT).href),allow=new Set(urls);
 // Keep the previous active worker until the entire new shell has been verified.
 async function download1122(url,validate){let error;for(let i=0;i<2;i++){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);try{const r=await fetch(url,{cache:'no-store',credentials:'same-origin',signal:controller.signal});if(!r.ok)throw Error('HTTP '+r.status+' '+url);await validate(r.clone());return r.redirected?new Response(await r.arrayBuffer(),{status:r.status,statusText:r.statusText,headers:r.headers}):r}catch(e){error=e}finally{clearTimeout(timer)}}throw error}

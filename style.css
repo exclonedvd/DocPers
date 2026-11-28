@@ -838,7 +838,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 /* 11.4.26: retired appearance controls remain non-interactive for legacy preference compatibility. */
 #settings .appearance-retired11426{display:none!important;visibility:hidden!important;pointer-events:none!important}
 
-/* 11.4.49 compact appearance */
+/* 11.4.50 compact appearance */
 #settings .appearance-compact11427{display:grid;gap:8px;padding:4px 0!important;border:0!important}
 #settings .appearance-section11427,#settings .appearance-glass11427,#settings #resetAppearance950{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0;min-width:0}
 #settings .appearance-section11427>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:10px 12px;font-weight:650;cursor:pointer}
@@ -864,7 +864,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .appearance-glass11427{display:flex!important;align-items:center;justify-content:space-between;padding:10px 12px;min-height:44px}
 #settings #resetAppearance950{min-height:44px;padding:8px 12px}
 
-/* 11.4.49: compact settings only; keep a 44px minimum touch target. */
+/* 11.4.50: compact settings only; keep a 44px minimum touch target. */
 #settings .pagehead{margin-bottom:4px}
 #settings .pagehead h1{margin:3px 0;line-height:1.15}
 #settingsGroups931{gap:3px}
@@ -889,7 +889,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=appearance] .appearance-glass11427{padding:0 9px;min-height:46px;box-sizing:border-box;margin:0}
 #settings [data-group931=appearance] #resetAppearance950{min-height:44px;padding:4px 9px;margin:0}
 
-/* 11.4.49: compact access and security; scoped to settings. */
+/* 11.4.50: compact access and security; scoped to settings. */
 #settings [data-group931=security] .settings-body931{padding:1px 9px 3px}
 #settings [data-group931=security] .settings-body931>.settings-card{padding:4px 0!important;margin:0;display:grid;gap:3px}
 #settings [data-group931=security] .settings-body931 h2{margin:0;line-height:1.2;font-size:.89rem}
@@ -898,7 +898,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=security] .micro{font-size:.72rem;color:var(--muted)}
 #settings [data-group931=security] .full{margin:0;min-height:44px;padding:5px 8px;font-size:.85rem;line-height:1.2}
 
-/* 11.4.49: compact cloud controls; compatibility nodes cannot become visible. */
+/* 11.4.50: compact cloud controls; compatibility nodes cannot become visible. */
 #cloudCompatibility11431,[id=chronosOpen900],#cloudSync101,#cloudDiag101{display:none!important}
 #settings [data-group931=cloud] .settings-body931{padding:2px 9px 6px}
 #settings .cloud-simple11431{display:grid;gap:4px;padding:4px 0!important;margin:0}
@@ -912,7 +912,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .cloud-summary11431 strong{font-size:.8rem;line-height:1.25}.cloud-summary11431 strong[data-state=ok]{color:var(--good,#78d5a3)}.cloud-summary11431 strong[data-state=error]{color:var(--danger,#ef8992)}
 .cloud-summary11431 p{margin:0;line-height:1.25}.cloud-summary11431 p:empty{display:none}.cloud-summary11431 button{min-height:44px;margin:2px 0 0}.cloud-summary11431 button[hidden]{display:none!important}
 
-/* 11.4.49: compact settings; a real checkbox drives an independent switch track. */
+/* 11.4.50: compact settings; a real checkbox drives an independent switch track. */
 #settings .cloud-toggle11431>span:first-child{flex:1;min-width:0;overflow-wrap:anywhere}
 #settings .cloud-toggle11431 .cloud-switch11432{display:grid;place-items:center;position:relative;flex:0 0 48px;width:48px;min-width:48px;max-width:48px;height:44px;min-height:44px;max-height:44px;gap:0;align-self:center;box-sizing:border-box}
 #settings #cloudAuto11431{position:absolute!important;inset:0!important;display:block!important;width:100%!important;min-width:0!important;max-width:none!important;height:100%!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0!important;opacity:0!important;z-index:2;cursor:pointer;appearance:none!important;-webkit-appearance:none!important;box-sizing:border-box!important}
@@ -942,7 +942,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .compact-notice11432 .push-actions11432 button{width:100%;min-width:0;min-height:44px;padding:5px;font-size:.78rem;margin:0;line-height:1.2}
 @media(max-width:360px){#settings :is(.compact-use11432,.compact-notice11432) .compact-field11432{grid-template-columns:1fr;gap:2px}#settings .compact-notice11432 .reminder-days span{font-size:.64rem}}
 
-/* 11.4.49: compact notification preferences, shared by settings and onboarding. */
+/* 11.4.50: compact notification preferences, shared by settings and onboarding. */
 #noticeDialog11421[open]{position:fixed;inset:0;margin:auto;box-sizing:border-box;width:min(420px,calc(100% - 24px));max-width:calc(100% - 24px);height:max-content;max-height:calc(100dvh - 24px);padding:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--adaptive-radius,16px);color:var(--text);overflow:auto;overscroll-behavior:contain}
 #noticeDialog11421 h2{font-size:1.1rem;line-height:1.25;margin:0 0 6px;padding:0}
 #noticeDialog11421 .notice-actions11433{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:6px;margin:8px 0 0;padding:0}
@@ -972,7 +972,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .notice-compact11433 .notice-models11421 button{min-height:44px;margin:4px 0;font-size:.82rem}
 @media(max-width:360px){#noticeDialog11421[open]{padding:11px}#noticeDialog11421 .notice-actions11433 button{font-size:.78rem}}
 
-/* 11.4.49: Home & widgets settings only. Preserve all controls and their IDs. */
+/* 11.4.50: Home & widgets settings only. Preserve all controls and their IDs. */
 #settings .home-compact11434{padding:0 9px 3px;gap:0}
 #settings .home-compact11434>.home-group11434{padding:0!important;margin:0!important;border-bottom:1px solid var(--line)!important}
 #settings .home-compact11434>.home-group11434:last-child{border-bottom:0!important}
@@ -1009,7 +1009,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .home-inner11434 .appearance-retired11426{display:none!important}
 @media(max-width:360px){#settings .home-inner11434{padding:0 4px 4px}#settings .home-inner11434 .home-layout-field11434,#settings .home-inner11434 .adaptive-row660,#settings .home-inner11434 .e101-fields label{grid-template-columns:minmax(0,1fr);gap:1px}}
 
-/* 11.4.49 Countdown: accordion with accessible fixed-size controls. */
+/* 11.4.50 Countdown: accordion with accessible fixed-size controls. */
 #countDialog920.count-compact11435{padding:14px;max-width:460px;box-sizing:border-box}
 #countDialog920 .sectionhead{margin:0 0 4px;gap:6px;align-items:center}
 #countDialog920 .sectionhead h2{font-size:1.1rem;margin:0}
@@ -1042,7 +1042,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #countError920:empty{display:none}#countError920{margin:4px 0;font-size:.8rem;color:var(--danger,#ff9999)}
 @media(max-width:360px){#countDialog920.count-compact11435{padding:10px}#countDialog920 .count-input11435{grid-template-columns:minmax(0,1fr);gap:2px}}
 
-/* 11.4.49: compact document export; native controls remain accessible, visual indicators are app-owned. */
+/* 11.4.50: compact document export; native controls remain accessible, visual indicators are app-owned. */
 #pdfDialog.pdf-compact11437{position:fixed;inset:0;margin:auto;width:min(calc(100% - 24px),460px);max-width:calc(100% - 24px);max-height:min(calc(100dvh - 32px),calc(var(--keyboard-height910,100dvh) - 32px));padding:12px 14px;box-sizing:border-box;overflow:auto;scrollbar-gutter:auto;}
 #pdfDialog .pdf-sheet-head{gap:6px;margin:0 0 4px;min-height:44px;}
 #pdfDialog .pdf-sheet-head h2{margin:0;font-size:1.03rem;line-height:1.25;}
@@ -1068,7 +1068,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #pdfDialog .pdf-buttons button{min-height:44px;padding:6px 8px;font-size:.85rem;line-height:1.25;margin:0;}
 #pdfDialog .pdf-buttons .primary{background:var(--accent);color:var(--bg);border-color:var(--accent);}
 
-/* 11.4.49: compact, typographic balance cards; no redundant progress bars. */
+/* 11.4.50: compact, typographic balance cards; no redundant progress bars. */
 #homeSpSummary.home-sp-grid{gap:6px}#homeSpSummary .smart-balance582{padding:10px 11px;gap:6px;text-align:left;align-content:stretch;grid-template-rows:1fr auto;min-height:80px;border-radius:var(--adaptive-radius,14px);border-inline-start:3px solid var(--sp-accent,var(--accent));}
 .sp-home-head11441{display:grid;align-content:start;gap:2px;min-width:0;line-height:1.2}
 .sp-home-code11441{font-size:.72rem;font-weight:750;letter-spacing:.035em;white-space:nowrap;color:var(--text)}
@@ -1079,7 +1079,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .sp511-card{padding:8px 10px;gap:0;min-height:48px}.sp511-line{grid-template-columns:43px minmax(0,1fr) auto 8px;gap:8px}.sp511-code{width:43px;min-height:32px;border-radius:7px}.sp511-info strong{font-size:.86rem;line-height:1.2}.sp511-saldo .sp-balance11441{justify-content:flex-end}.sp511-saldo .sp-balance11441 strong{font-size:1.23rem;letter-spacing:-.02em}.sp511-hero .sp-balance11441{justify-content:center}.sp511-hero .sp-balance11441 strong{font-size:2.1rem;color:var(--accent)}.sp511-hero .sp-balance11441 strong.sp-negative{color:var(--danger,#c54c4c)}
 @media(max-width:380px){#homeSpSummary .smart-balance582{padding:8px;gap:5px}.sp511-line{grid-template-columns:37px minmax(0,1fr) auto 6px;gap:5px}.sp511-code{width:37px}.sp511-info strong{font-size:.79rem}.sp511-saldo .sp-balance11441 strong{font-size:1.1rem}.sp511-saldo .sp-balance11441{max-width:100px}.sp-balance11441 .sp-unit11441{font-size:.7rem!important}}
 
-/* 11.4.49: neutral Home balances; scoped to the existing Home panel. */
+/* 11.4.50: neutral Home balances; scoped to the existing Home panel. */
 #homeSpSummary.home-sp-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;grid-auto-rows:1fr}
 #homeSpSummary .smart-balance582{display:grid;grid-template-rows:1fr auto;justify-items:center;align-items:center;align-content:stretch;gap:4px;padding:8px 5px;min-height:76px;text-align:center;border:1px solid var(--line);border-radius:var(--adaptive-radius,12px);background:var(--card);color:var(--text);box-shadow:none;min-width:0}
 #homeSpSummary .sp-home-name11441{font-size:.76rem;font-weight:600;line-height:1.22;min-height:2.44em;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);word-break:normal;overflow-wrap:break-word;max-width:100%}
@@ -1090,7 +1090,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #homeSpSummary .smart-balance582:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 @media(max-width:360px){#homeSpSummary .smart-balance582{padding:7px 4px}#homeSpSummary .sp-home-name11441{font-size:.72rem}#homeSpSummary .sp-balance11441 strong{font-size:1.4rem}}
 
-/* KAIROS 11.4.49: shared page/card geometry. */
+/* KAIROS 11.4.50: shared page/card geometry. */
 :root{--kairos-ui-gutter:18px;--kairos-ui-gap:8px;--kairos-ui-pad:12px;--kairos-ui-card-radius:var(--adaptive-radius,16px);--kairos-ui-border:1px;--kairos-ui-row:48px;--kairos-ui-title:1rem;--kairos-ui-caption:.75rem;--kairos-ui-head-gap:8px}
 [data-adaptive-density=compact]{--kairos-ui-gap:6px;--kairos-ui-pad:9px}
 [data-adaptive-density=wide]{--kairos-ui-gap:12px;--kairos-ui-pad:16px}
@@ -1127,7 +1127,7 @@ html[data-e-spacing=tight] #dashboard>.profile-panel,html[data-e-spacing=relaxed
 #settings .settings-body931>.settings-card{max-width:none}
 }
 
-/* 11.4.49: ShiftFlow viewport extends to the screen edge; cards retain their gutter. */
+/* 11.4.50: ShiftFlow viewport extends to the screen edge; cards retain their gutter. */
 @media screen{
 html:not(.calendar-focus940) body.shiftflow-active>main,html:not(.calendar-focus940) body.shiftflow-active.has-bottom-nav>main{width:100%;max-width:none;padding-inline:0!important;margin-inline:0;}
 html:not(.calendar-focus940) body.shiftflow-active #shiftflowMessage:not([hidden]){margin-inline:var(--kairos-ui-gutter)}

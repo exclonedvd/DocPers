@@ -1,0 +1,25 @@
+{
+  "version": "11.4.74",
+  "notes": "KAIROS 11.4.74 · Avvisi integrati",
+  "sha256": {
+    "index.html": "0952e8b6387543ff38c1a03687a2a1aa60eab9f9dbfc0016eb6a25145be67bec",
+    "app.v11.4.74.js": "6a75d9fe6865271fa223ccf591f568073894b2284251a6fd2604e830491b20f7",
+    "style.v11.4.74.css": "ac686d1aa922bba7160d46c004b9fad1f71cf6e9f45ecbf7914d5c68a55a1090",
+    "spettanze.v11.4.74.js": "ab46bdda132cedb76dd9478c162d5b4d8a5e1c90fdb3b2c7fe386d416c041396",
+    "shiftflow.v11.4.74.html": "2f6ca9623dfc07274fe336c8ae64a752a5cc37774ebb31fc798eba300a403db3",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "dc551f776e85893c4b3404e3a5073ffc2c8034ff2492825cd8eb3ee1798afbee"
+  },
+  "changes": [
+    "Conferme e avvisi applicativi integrati nel tema",
+    "Promemoria modificabili con popup interno",
+    "Validazione dei campi e conferme asincrone con blocco dell’azione fino alla conferma"
+  ]
+}

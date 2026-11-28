@@ -838,7 +838,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 /* 11.4.26: retired appearance controls remain non-interactive for legacy preference compatibility. */
 #settings .appearance-retired11426{display:none!important;visibility:hidden!important;pointer-events:none!important}
 
-/* 11.4.73 compact appearance */
+/* 11.4.74 compact appearance */
 #settings .appearance-compact11427{display:grid;gap:8px;padding:4px 0!important;border:0!important}
 #settings .appearance-section11427,#settings .appearance-glass11427,#settings #resetAppearance950{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0;min-width:0}
 #settings .appearance-section11427>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:10px 12px;font-weight:650;cursor:pointer}
@@ -864,7 +864,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .appearance-glass11427{display:flex!important;align-items:center;justify-content:space-between;padding:10px 12px;min-height:44px}
 #settings #resetAppearance950{min-height:44px;padding:8px 12px}
 
-/* 11.4.73: compact settings only; keep a 44px minimum touch target. */
+/* 11.4.74: compact settings only; keep a 44px minimum touch target. */
 #settings .pagehead{margin-bottom:4px}
 #settings .pagehead h1{margin:3px 0;line-height:1.15}
 #settingsGroups931{gap:3px}
@@ -889,7 +889,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=appearance] .appearance-glass11427{padding:0 9px;min-height:46px;box-sizing:border-box;margin:0}
 #settings [data-group931=appearance] #resetAppearance950{min-height:44px;padding:4px 9px;margin:0}
 
-/* 11.4.73: compact access and security; scoped to settings. */
+/* 11.4.74: compact access and security; scoped to settings. */
 #settings [data-group931=security] .settings-body931{padding:1px 9px 3px}
 #settings [data-group931=security] .settings-body931>.settings-card{padding:4px 0!important;margin:0;display:grid;gap:3px}
 #settings [data-group931=security] .settings-body931 h2{margin:0;line-height:1.2;font-size:.89rem}
@@ -898,7 +898,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings [data-group931=security] .micro{font-size:.72rem;color:var(--muted)}
 #settings [data-group931=security] .full{margin:0;min-height:44px;padding:5px 8px;font-size:.85rem;line-height:1.2}
 
-/* 11.4.73: compact cloud controls; compatibility nodes cannot become visible. */
+/* 11.4.74: compact cloud controls; compatibility nodes cannot become visible. */
 #cloudCompatibility11431,[id=chronosOpen900],#cloudSync101,#cloudDiag101{display:none!important}
 #settings [data-group931=cloud] .settings-body931{padding:2px 9px 6px}
 #settings .cloud-simple11431{display:grid;gap:4px;padding:4px 0!important;margin:0}
@@ -912,7 +912,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .cloud-summary11431 strong{font-size:.8rem;line-height:1.25}.cloud-summary11431 strong[data-state=ok]{color:var(--good,#78d5a3)}.cloud-summary11431 strong[data-state=error]{color:var(--danger,#ef8992)}
 .cloud-summary11431 p{margin:0;line-height:1.25}.cloud-summary11431 p:empty{display:none}.cloud-summary11431 button{min-height:44px;margin:2px 0 0}.cloud-summary11431 button[hidden]{display:none!important}
 
-/* 11.4.73: compact settings; a real checkbox drives an independent switch track. */
+/* 11.4.74: compact settings; a real checkbox drives an independent switch track. */
 #settings .cloud-toggle11431>span:first-child{flex:1;min-width:0;overflow-wrap:anywhere}
 #settings .cloud-toggle11431 .cloud-switch11432{display:grid;place-items:center;position:relative;flex:0 0 48px;width:48px;min-width:48px;max-width:48px;height:44px;min-height:44px;max-height:44px;gap:0;align-self:center;box-sizing:border-box}
 #settings #cloudAuto11431{position:absolute!important;inset:0!important;display:block!important;width:100%!important;min-width:0!important;max-width:none!important;height:100%!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0!important;opacity:0!important;z-index:2;cursor:pointer;appearance:none!important;-webkit-appearance:none!important;box-sizing:border-box!important}
@@ -942,7 +942,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .compact-notice11432 .push-actions11432 button{width:100%;min-width:0;min-height:44px;padding:5px;font-size:.78rem;margin:0;line-height:1.2}
 @media(max-width:360px){#settings :is(.compact-use11432,.compact-notice11432) .compact-field11432{grid-template-columns:1fr;gap:2px}#settings .compact-notice11432 .reminder-days span{font-size:.64rem}}
 
-/* 11.4.73: compact notification preferences, shared by settings and onboarding. */
+/* 11.4.74: compact notification preferences, shared by settings and onboarding. */
 #noticeDialog11421[open]{position:fixed;inset:0;margin:auto;box-sizing:border-box;width:min(420px,calc(100% - 24px));max-width:calc(100% - 24px);height:max-content;max-height:calc(100dvh - 24px);padding:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--adaptive-radius,16px);color:var(--text);overflow:auto;overscroll-behavior:contain}
 #noticeDialog11421 h2{font-size:1.1rem;line-height:1.25;margin:0 0 6px;padding:0}
 #noticeDialog11421 .notice-actions11433{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:6px;margin:8px 0 0;padding:0}
@@ -972,7 +972,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .notice-compact11433 .notice-models11421 button{min-height:44px;margin:4px 0;font-size:.82rem}
 @media(max-width:360px){#noticeDialog11421[open]{padding:11px}#noticeDialog11421 .notice-actions11433 button{font-size:.78rem}}
 
-/* 11.4.73: Home & widgets settings only. Preserve all controls and their IDs. */
+/* 11.4.74: Home & widgets settings only. Preserve all controls and their IDs. */
 #settings .home-compact11434{padding:0 9px 3px;gap:0}
 #settings .home-compact11434>.home-group11434{padding:0!important;margin:0!important;border-bottom:1px solid var(--line)!important}
 #settings .home-compact11434>.home-group11434:last-child{border-bottom:0!important}
@@ -1009,7 +1009,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #settings .home-inner11434 .appearance-retired11426{display:none!important}
 @media(max-width:360px){#settings .home-inner11434{padding:0 4px 4px}#settings .home-inner11434 .home-layout-field11434,#settings .home-inner11434 .adaptive-row660,#settings .home-inner11434 .e101-fields label{grid-template-columns:minmax(0,1fr);gap:1px}}
 
-/* 11.4.73 Countdown: accordion with accessible fixed-size controls. */
+/* 11.4.74 Countdown: accordion with accessible fixed-size controls. */
 #countDialog920.count-compact11435{padding:14px;max-width:460px;box-sizing:border-box}
 #countDialog920 .sectionhead{margin:0 0 4px;gap:6px;align-items:center}
 #countDialog920 .sectionhead h2{font-size:1.1rem;margin:0}
@@ -1042,7 +1042,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #countError920:empty{display:none}#countError920{margin:4px 0;font-size:.8rem;color:var(--danger,#ff9999)}
 @media(max-width:360px){#countDialog920.count-compact11435{padding:10px}#countDialog920 .count-input11435{grid-template-columns:minmax(0,1fr);gap:2px}}
 
-/* 11.4.73: compact document export; native controls remain accessible, visual indicators are app-owned. */
+/* 11.4.74: compact document export; native controls remain accessible, visual indicators are app-owned. */
 #pdfDialog.pdf-compact11437{position:fixed;inset:0;margin:auto;width:min(calc(100% - 24px),460px);max-width:calc(100% - 24px);max-height:min(calc(100dvh - 32px),calc(var(--keyboard-height910,100dvh) - 32px));padding:12px 14px;box-sizing:border-box;overflow:auto;scrollbar-gutter:auto;}
 #pdfDialog .pdf-sheet-head{gap:6px;margin:0 0 4px;min-height:44px;}
 #pdfDialog .pdf-sheet-head h2{margin:0;font-size:1.03rem;line-height:1.25;}
@@ -1068,7 +1068,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #pdfDialog .pdf-buttons button{min-height:44px;padding:6px 8px;font-size:.85rem;line-height:1.25;margin:0;}
 #pdfDialog .pdf-buttons .primary{background:var(--accent);color:var(--bg);border-color:var(--accent);}
 
-/* 11.4.73: compact, typographic balance cards; no redundant progress bars. */
+/* 11.4.74: compact, typographic balance cards; no redundant progress bars. */
 #homeSpSummary.home-sp-grid{gap:6px}#homeSpSummary .smart-balance582{padding:10px 11px;gap:6px;text-align:left;align-content:stretch;grid-template-rows:1fr auto;min-height:80px;border-radius:var(--adaptive-radius,14px);border-inline-start:3px solid var(--sp-accent,var(--accent));}
 .sp-home-head11441{display:grid;align-content:start;gap:2px;min-width:0;line-height:1.2}
 .sp-home-code11441{font-size:.72rem;font-weight:750;letter-spacing:.035em;white-space:nowrap;color:var(--text)}
@@ -1079,7 +1079,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 .sp511-card{padding:8px 10px;gap:0;min-height:48px}.sp511-line{grid-template-columns:43px minmax(0,1fr) auto 8px;gap:8px}.sp511-code{width:43px;min-height:32px;border-radius:7px}.sp511-info strong{font-size:.86rem;line-height:1.2}.sp511-saldo .sp-balance11441{justify-content:flex-end}.sp511-saldo .sp-balance11441 strong{font-size:1.23rem;letter-spacing:-.02em}.sp511-hero .sp-balance11441{justify-content:center}.sp511-hero .sp-balance11441 strong{font-size:2.1rem;color:var(--accent)}.sp511-hero .sp-balance11441 strong.sp-negative{color:var(--danger,#c54c4c)}
 @media(max-width:380px){#homeSpSummary .smart-balance582{padding:8px;gap:5px}.sp511-line{grid-template-columns:37px minmax(0,1fr) auto 6px;gap:5px}.sp511-code{width:37px}.sp511-info strong{font-size:.79rem}.sp511-saldo .sp-balance11441 strong{font-size:1.1rem}.sp511-saldo .sp-balance11441{max-width:100px}.sp-balance11441 .sp-unit11441{font-size:.7rem!important}}
 
-/* 11.4.73: neutral Home balances; scoped to the existing Home panel. */
+/* 11.4.74: neutral Home balances; scoped to the existing Home panel. */
 #homeSpSummary.home-sp-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;grid-auto-rows:1fr}
 #homeSpSummary .smart-balance582{display:grid;grid-template-rows:1fr auto;justify-items:center;align-items:center;align-content:stretch;gap:4px;padding:8px 5px;min-height:76px;text-align:center;border:1px solid var(--line);border-radius:var(--adaptive-radius,12px);background:var(--card);color:var(--text);box-shadow:none;min-width:0}
 #homeSpSummary .sp-home-name11441{font-size:.76rem;font-weight:600;line-height:1.22;min-height:2.44em;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);word-break:normal;overflow-wrap:break-word;max-width:100%}
@@ -1090,7 +1090,7 @@ input.kp17-native,select.kp17-native{display:none!important;visibility:hidden!im
 #homeSpSummary .smart-balance582:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 @media(max-width:360px){#homeSpSummary .smart-balance582{padding:7px 4px}#homeSpSummary .sp-home-name11441{font-size:.72rem}#homeSpSummary .sp-balance11441 strong{font-size:1.4rem}}
 
-/* KAIROS 11.4.73: shared page/card geometry. */
+/* KAIROS 11.4.74: shared page/card geometry. */
 :root{--kairos-ui-gutter:18px;--kairos-ui-gap:8px;--kairos-ui-pad:12px;--kairos-ui-card-radius:var(--adaptive-radius,16px);--kairos-ui-border:1px;--kairos-ui-row:48px;--kairos-ui-title:1rem;--kairos-ui-caption:.75rem;--kairos-ui-head-gap:8px}
 [data-adaptive-density=compact]{--kairos-ui-gap:6px;--kairos-ui-pad:9px}
 [data-adaptive-density=wide]{--kairos-ui-gap:12px;--kairos-ui-pad:16px}
@@ -1127,7 +1127,7 @@ html[data-e-spacing=tight] #dashboard>.profile-panel,html[data-e-spacing=relaxed
 #settings .settings-body931>.settings-card{max-width:none}
 }
 
-/* 11.4.73: ShiftFlow viewport extends to the screen edge; cards retain their gutter. */
+/* 11.4.74: ShiftFlow viewport extends to the screen edge; cards retain their gutter. */
 @media screen{
 html:not(.calendar-focus940) body.shiftflow-active>main,html:not(.calendar-focus940) body.shiftflow-active.has-bottom-nav>main{width:100%;max-width:none;padding-inline:0!important;margin-inline:0;}
 html:not(.calendar-focus940) body.shiftflow-active #shiftflowMessage:not([hidden]){margin-inline:var(--kairos-ui-gutter)}
@@ -1135,12 +1135,12 @@ html:not(.calendar-focus940) body.shiftflow-active #shiftflowMessage:not([hidden
 
 @media screen{html.calendar-focus940 #shiftflow .pagehead{display:none!important}html.calendar-focus940 body.shiftflow-active.has-bottom-nav>main{padding-top:env(safe-area-inset-top,0px)!important;padding-bottom:env(safe-area-inset-bottom,0px)!important}}
 
-/* 11.4.73: compact document archive, scoped to archive views and vault. */
+/* 11.4.74: compact document archive, scoped to archive views and vault. */
 #detail .detail-person1143{padding:10px 12px;gap:6px;margin-bottom:8px}#detail .detail-identity{gap:8px}#detail .detail-identity h1{font-size:clamp(17px,4vw,22px);margin:0}#detail .detail-identity p{margin:2px 0}#detail>.panel{padding:10px;gap:6px}#detail .sectionhead{gap:5px;margin-bottom:6px;flex-wrap:nowrap}#detail .sectionhead h2{font-size:16px;flex:1;margin:0}#detail :is(#detailAdd,#detailPdfBottom,#validationOpen950){width:40px;min-width:40px;height:40px;min-height:40px;padding:0;display:inline-flex;align-items:center;justify-content:center;flex:none;margin:0}#detail #detailAdd{background:var(--accent);color:var(--bg);font-size:24px}#detail #detailPdfBottom svg{width:20px;height:20px}#detail #detailSearch{margin:0;min-height:42px}#detail .archive-filters11451{margin:4px 0 6px;padding:0;border:0}#detail .archive-filters11451>summary,#detail .archive-more11451>summary,.vault-min11451 details>summary{cursor:pointer;padding:8px 0;font-size:13px;color:var(--text);font-weight:600}#detail .archive-filters11451 label{margin:3px 0}#detailDocs{display:grid;gap:6px;margin:4px 0}#detailDocs .archive-group11451{border:1px solid var(--line);border-radius:var(--kairos-ui-card-radius,12px);padding:0 8px;background:var(--card);min-width:0}#detailDocs .archive-grouphead11451{display:flex;align-items:center;justify-content:space-between;gap:8px;cursor:pointer;padding:10px 2px;min-height:44px;font-weight:650;font-size:14px;list-style:none}#detailDocs .archive-grouphead11451::-webkit-details-marker{display:none}#detailDocs .archive-grouphead11451:after{content:'›';color:var(--muted);font-size:20px}#detailDocs .archive-group11451[open]>.archive-grouphead11451:after{content:'⌄'}#detailDocs .archive-grouphead11451 span{flex:1}#detailDocs .read-doc{padding:0;margin:0;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none}#detailDocs .doc-expand581{padding:7px 0;min-height:48px;gap:6px;grid-template-columns: auto minmax(0,1fr) auto}#detailDocs .doc-title581 strong{font-size:13px;line-height:1.3}#detailDocs .doc-title581 small{font-size:11px}#detailDocs .doc-side581{gap:4px}#detailDocs .tag{font-size:10px;padding:3px 5px;white-space:normal}#detailDocs .doc-body581{padding:6px 0 8px;gap:6px}#detailDocs .doc-body581 .read-fields{display:grid;grid-template-columns:1fr;gap:3px;margin:0}#detailDocs .doc-body581 .read-fields>div{display:flex;justify-content:space-between;gap:6px;padding:4px 0;background:transparent;border:0}#detailDocs .read-fields dt{font-size:12px}#detailDocs .read-fields dd{font-size:13px;text-align:right;margin:0}#detailDocs .archive-more11451{border-top:1px solid var(--line);padding:0;margin:0}#detailDocs .archive-meta590{padding:4px 0;gap:4px;margin:0;border:0}#detailDocs .archive-meta590 p{margin:3px 0}#detailDocs .archive-plan11451{width:100%;min-height:42px;margin:4px 0;background:var(--accent);color:var(--bg)}#detailDocs .doc-actions{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin:0}#detailDocs .doc-actions button,#detailDocs .archive-more11451 button{min-height:40px;padding:6px;font-size:13px}#editor #attestatiEditorFields .doc{padding:8px;gap:5px;margin:5px 0}#editor #attestatiEditorFields .doc-grid{gap:6px}#editor #attestatiEditorFields .doc-top{gap:5px}#editor #attestatiEditorFields .doc-result{padding:5px;gap:4px}#editor #attestatiEditorFields .archive-edit590{margin:4px 0;padding:5px}#scheduleDialog590{max-width:min(460px,calc(100% - 20px));padding:12px}#scheduleForm590{display:grid;gap:6px}#scheduleForm590 h2{margin:0;font-size:18px}#scheduleForm590 label{margin:0}#scheduleForm590 p{margin:0}#scheduleHint112:empty,#scheduleError590:empty{display:none}#scheduleForm590 textarea{min-height:48px}#scheduleForm590 .archive-grid590 button{min-height:44px}#scheduleForm590 button[type=submit]{background:var(--accent);color:var(--bg)}#scheduleOffsets112{gap:4px;margin:2px 0}#scheduleOffsets112 button{min-height:30px;padding:4px 8px;font-size:11px}.vault-min11451{max-width:min(560px,calc(100% - 20px));padding:12px}.vault-min11451 #promBody105,.vault-min11451 .prom-vault105{display:grid;gap:6px}.vault-min11451 #promStatus105:empty{display:none}.vault-min11451 .vault-doc11451{font-size:13px;color:var(--muted);margin:0}.vault-min11451 .vault-advanced11451{border-top:1px solid var(--line);margin:0}.vault-min11451 .vault-add11451>summary{list-style:none;background:var(--accent);color:var(--bg);border-radius:8px;text-align:center;min-height:44px;display:grid;place-items:center;padding:6px}.vault-min11451 .vault-add11451>summary::-webkit-details-marker{display:none}.vault-min11451 .vault-form1051{padding:6px 0;gap:6px}.vault-min11451 .vault-source11451{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}.vault-min11451 .vault-source11451 button{min-height:42px;padding:4px;font-size:12px}.vault-min11451 .vault-native11451{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}.vault-min11451 .vault-filename11451{overflow-wrap:anywhere;margin:0}.vault-min11451 .vault-file11451{display:flex;flex-wrap:wrap;align-items:center;gap:5px;padding:7px;margin:0;border:1px solid var(--line);border-radius:9px}.vault-min11451 .vault-file-info11451{flex:1;min-width:0;display:grid;gap:2px}.vault-min11451 .vault-file-info11451 strong{font-size:13px;overflow-wrap:anywhere}.vault-min11451 .vault-file-info11451 small{font-size:11px}.vault-min11451 .vault-file-actions11451{display:flex;gap:3px;margin:0;flex:none}.vault-min11451 .vault-icon11451{width:36px;min-width:36px;min-height:36px;height:36px;padding:7px;display:grid;place-items:center}.vault-min11451 .vault-icon11451 svg{width:18px;height:18px}.vault-min11451 .vault-icon11451:last-child{color:var(--red)}.vault-min11451 .prom-preview105{width:100%;flex-basis:100%;max-height:300px}.vault-min11451 iframe.prom-preview105{height:260px}.vault-min11451 .ath-storage-list106{display:grid;gap:5px}.vault-min11451 .vault-upload-status1061:empty{display:none}.vault-min11451 [hidden],#detail [hidden]{display:none!important}@media(max-width:360px){#detail .sectionhead h2{font-size:14px}#detail :is(#detailAdd,#detailPdfBottom,#validationOpen950){width:34px;min-width:34px} .vault-min11451 .vault-icon11451{width:32px;min-width:32px;padding:5px}}
 
 #editor .archive-edit-main11451>summary{cursor:pointer;font-size:14px;font-weight:650;padding:9px 0;min-height:40px}#editor .archive-edit-main11451[open]>summary{border-bottom:1px solid var(--line);margin-bottom:6px}#promDialog105.vault-min11451{overflow-x:hidden;box-sizing:border-box}#promDialog105.vault-min11451 #promBody105,#promDialog105.vault-min11451 .prom-vault105,#promDialog105.vault-min11451 .prom-form105{min-width:0;max-width:100%;grid-template-columns:minmax(0,1fr)}#promDialog105.vault-min11451 .vault-native11451{left:0;top:0;clip-path:inset(50%)}#detailDocs .doc-icon581{color:var(--accent)!important}#scheduleForm590 .dialog-head button{min-width:40px;min-height:40px;padding:0}
 
-/* 11.4.73: full-width independent archive categories, visible validity summary. */
+/* 11.4.74: full-width independent archive categories, visible validity summary. */
 #detail>.panel:has(#detailDocs){background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important;overflow:visible!important}
 #detail #detailDocs{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--kairos-ui-gap,8px);border:0!important;background:transparent!important;padding:0!important;box-shadow:none!important;margin:8px 0 0;border-radius:0}
 #detail #detailDocs .archive-group11451{padding:0 10px;margin:0;min-width:0;border-radius:var(--kairos-ui-card-radius,16px)}
@@ -1192,7 +1192,7 @@ html:not(.calendar-focus940) body.shiftflow-active #shiftflowMessage:not([hidden
 #promDialog105.vault-min11451 .vault-file11451{padding:6px;gap:4px}
 @media(max-width:350px){#promDialog105.vault-min11451 .vault-source11451 button{flex-direction:column;gap:2px;font-size:11px}#promDialog105.vault-min11451 .vault-fields11456 .prom-field105{grid-template-columns:1fr}}
 
-/* 11.4.73: single symmetrical service card, no elapsed/remaining time. */
+/* 11.4.74: single symmetrical service card, no elapsed/remaining time. */
 #homeRest582{display:none!important}
 #homeDaily #homeNextShift{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:10px;text-align:left;white-space:normal;min-width:0}
 #homeNextShift .service-heading11459{display:block;font-size:1rem;font-weight:750;color:var(--text);line-height:1.3}
@@ -1206,7 +1206,7 @@ html:not(.calendar-focus940) body.shiftflow-active #shiftflowMessage:not([hidden
 .service-column11459 .service-value11459{font-size:.92rem;font-weight:700;line-height:1.3;min-width:0}
 .service-column11459 .service-date11459{font-size:.73rem;line-height:1.3;color:var(--muted);margin-top:auto}
 
-/* 11.4.73: shared Home card headings and outer geometry. Keep user widget styling and all existing controls. */
+/* 11.4.74: shared Home card headings and outer geometry. Keep user widget styling and all existing controls. */
 #dashboard #spettanzePanel{border:var(--kairos-ui-border) solid var(--line);border-radius:var(--kairos-ui-card-radius);padding:var(--kairos-ui-pad);margin:0 0 var(--kairos-ui-gap);min-width:0;box-sizing:border-box}
 #dashboard #homeDaily.adaptive-grid660 #spettanzePanel{margin:0}
 #dashboard #homeDaily .panel>h2,#dashboard #homeDaily .panel>.sectionhead>h2,#dashboard #spettanzePanel>h2,#dashboard #homeNextShift .service-heading11459{font-size:var(--kairos-ui-title,1rem);font-weight:750;line-height:1.3;color:var(--text);margin:0 0 var(--kairos-ui-head-gap,8px);min-width:0;overflow-wrap:anywhere}
@@ -1222,7 +1222,7 @@ html:not(.calendar-focus940) body.shiftflow-active #shiftflowMessage:not([hidden
 #dashboard #infinityWidgets700 .inf-widget700>span:first-of-type{font-weight:650;line-height:1.3;max-width:100%;overflow-wrap:anywhere}
 #dashboard #infinityWidgets700 .inf-widget700{min-width:0;box-sizing:border-box}
 
-/* 11.4.73: compact annual balance management, full names and neutral rows. */
+/* 11.4.74: compact annual balance management, full names and neutral rows. */
 #spettanzeDisclosure .sp-min11462{padding-top:6px;margin-top:0;display:grid;gap:6px}
 #spettanzeDisclosure .sp-min11462[hidden]{display:none}
 #spettanzeDisclosure:not([open])>.sp-min11462{display:none}
@@ -1247,7 +1247,7 @@ html:not(.calendar-focus940) body.shiftflow-active #shiftflowMessage:not([hidden
 #spettanzeDisclosure .sp-help11462 button{font-size:.75rem;min-height:40px;margin:4px 0}
 @media(max-width:360px){#spettanzeDisclosure .sp511-line{grid-template-columns:minmax(0,1fr) auto 7px;gap:4px}#spettanzeDisclosure .sp511-code{display:none}#spettanzeDisclosure .sp511-info strong{font-size:.78rem}}
 
-/* 11.4.73: annual entitlement editor */
+/* 11.4.74: annual entitlement editor */
 #spSetup11463[open]{position:fixed;inset:0;margin:auto;width:min(470px,calc(100% - 24px));max-width:calc(100% - 24px);max-height:calc(100dvh - 32px);height:max-content;box-sizing:border-box;overflow:auto;overscroll-behavior:contain;padding:12px 14px;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:var(--adaptive-radius,16px)}
 #spSetup11463::backdrop{background:#09111db8;backdrop-filter:blur(3px)}
 #spSetup11463 #spForm{display:grid;gap:6px;margin:0;padding:0;min-width:0}#spSetup11463 #spForm[hidden]{display:none}
@@ -1263,7 +1263,7 @@ html:not(.calendar-focus940) body.shiftflow-active #shiftflowMessage:not([hidden
 #spSetup11463[open]{background:var(--card,var(--bg))!important;background-image:none!important;opacity:1;backdrop-filter:none}
 #spSetup11463 #spForm{gap:4px}#spSetup11463 .sp-row11463{padding:2px 0}#spSetup11463 .sp-row11463 input{min-height:36px!important;height:36px!important;margin:0!important}#spSetup11463 .sp-fold11463 summary{min-height:32px;padding:2px 0}#spSetup11463 .sp-actions .primary{background:var(--gold,#d4b36b);border-color:var(--gold,#d4b36b);color:#142131}
 
-/* 11.4.73 Compact avatar picker, profile and onboarding. */
+/* 11.4.74 Compact avatar picker, profile and onboarding. */
 #editForm .avatar-panel{padding:10px;margin-bottom:10px;border-radius:var(--radius,14px)}
 #editForm .avatar-panel-head{display:flex;align-items:center;gap:8px;background:transparent;margin:0 0 8px;padding:0}
 #editForm .avatar-panel-head>.avatar-preview{width:44px;height:44px;min-width:44px;flex:0 0 44px;border-radius:50%}
@@ -1289,7 +1289,7 @@ html:not(.calendar-focus940) body.shiftflow-active #shiftflowMessage:not([hidden
 #catalogue11466 .dialog-head950{margin:0 0 8px;gap:8px}#catalogue11466 h2{font-size:1.12rem;margin:0}#catalogueClose11466{min-width:36px;width:36px;height:36px;min-height:36px;padding:0;font-size:1.3rem}#catalogueCustom11466,#catalogueSearch11466{width:100%;min-height:40px;margin:0 0 7px}#catalogueCustom11466{color:var(--gold)}
 #catalogue11466 .catalogue-group11466{font-size:.75rem;color:var(--gold);margin:8px 0 4px}#catalogue11466 .catalogue-row11466{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 9px;margin:0 0 4px;text-align:left;min-height:42px;white-space:normal}#catalogue11466 .catalogue-text11466{display:grid;gap:2px;min-width:0;overflow-wrap:anywhere}#catalogue11466 .catalogue-text11466 strong{font-size:.86rem}#catalogue11466 .catalogue-text11466 small{font-size:.72rem}#catalogue11466 .catalogue-plus11466{color:var(--gold);flex:none;font-size:.83rem}#catalogue11466 .catalogue-row11466:disabled{opacity:.65}
 
-/* 11.4.73: theme-independent glass; only decorative surfaces, not shift/status chips. */
+/* 11.4.74: theme-independent glass; only decorative surfaces, not shift/status chips. */
 @media screen {
 html[data-infinity-glass=on] {--glass-glint67:rgba(255,255,255,.13);--glass-edge67:rgba(255,255,255,.14);--glass-halo67:rgba(118,156,194,.21);}
 html[data-theme=light][data-infinity-glass=on]{--glass-glint67:rgba(255,255,255,.85);--glass-edge67:rgba(255,255,255,.8);--glass-halo67:rgba(117,151,192,.19)}
@@ -1316,7 +1316,7 @@ html[data-infinity-glass=off] dialog::backdrop{backdrop-filter:none!important;-w
 html[data-infinity-glass=on] #detail>.panel:has(#detailDocs),html[data-infinity-glass=on] #detail #detailDocs{background:transparent!important;box-shadow:none!important;}
 }
 
-/* 11.4.73: digital card inherits the active app theme, never a separate color setting. */
+/* 11.4.74: digital card inherits the active app theme, never a separate color setting. */
 #cardPreview911{background:var(--card,var(--bg));color:var(--text);border:1px solid var(--line);--card-accent930:var(--accent,var(--blue));--card-line930:var(--line)}
 .card-dialog911 #cardPreview911 h3{color:var(--text)}
 #cardPreview911 :is(.card-grade911,.card-status911){color:var(--muted)}
@@ -1328,7 +1328,7 @@ html[data-infinity-glass=on] #detail>.panel:has(#detailDocs),html[data-infinity-
 @media screen{html[data-infinity-glass=on] #cardPreview911{background-image:linear-gradient(145deg,var(--glass-glint67),transparent 68%);box-shadow:inset 0 1px 0 var(--glass-edge67)}
 html[data-infinity-glass=off] #cardPreview911{background-image:none;box-shadow:none}}
 
-/* 11.4.73: compact document selection and deadline centre; theme tokens preserved. */
+/* 11.4.74: compact document selection and deadline centre; theme tokens preserved. */
 #cardDialog911 .card-select11469{display:flex;align-items:center;gap:8px;width:100%;text-align:left;min-height:44px;margin:8px 0 0;padding:8px 10px}
 #cardDialog911 .card-select11469>span:first-child{flex:1;min-width:0;font-size:.86rem}
 #cardSelected11469{white-space:nowrap}
@@ -1380,7 +1380,7 @@ html[data-infinity-glass=off] #cardPreview911{background-image:none;box-shadow:n
 #deadlines .empty,#deadlines #deadlineAppointmentList590>p,#deadlines #deadlineUnplanned590>p{padding:5px 0;margin:0;font-size:.8rem}
 @media(min-width:760px){#deadlines .deadline-toolbar11469:has(.deadline-filter-disclosure[open]){grid-template-columns:minmax(0,1fr)}#deadlines .deadline-filters{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
-/* 11.4.73: bounded embedded viewport; prevent iOS intrinsic iframe expansion. */
+/* 11.4.74: bounded embedded viewport; prevent iOS intrinsic iframe expansion. */
 @media screen{
 body.shiftflow-active #shiftflowMount{position:relative;flex:1 1 0!important;min-height:0!important;min-width:0;overflow:hidden}
 body.shiftflow-active #shiftflowMount .shiftflow-frame{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-height:0!important;max-height:100%!important;border:0!important;display:block;}
@@ -1395,7 +1395,7 @@ html.calendar-focus940 body.shiftflow-active.has-bottom-nav>main{padding-top:env
 }
 }
 
-/* 11.4.73: editor agenda compatto, senza navigazione duplicata. */
+/* 11.4.74: editor agenda compatto, senza navigazione duplicata. */
 #plannerDialog512.planner-editor11473{width:min(94vw,460px);max-height:calc(100dvh - 32px);padding:12px 14px;}
 #plannerDialog512.planner-editor11473 :is(#plannerTabs512,#plannerNew512){display:none!important}
 #plannerDialog512.planner-editor11473 .sectionhead{margin:0 0 8px;gap:8px;display:flex;justify-content:space-between;align-items:center}
@@ -1421,3 +1421,19 @@ html.calendar-focus940 body.shiftflow-active.has-bottom-nav>main{padding-top:env
 #plannerDialog512 .planner-footer11473{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin:2px 0 0;gap:8px}
 #plannerDialog512 .planner-footer11473 button{min-height:44px;min-width:0;padding:7px;font-size:.9rem}
 #plannerDialog512 .planner-delete11473{min-height:40px;font-size:.82rem;margin:0}
+
+/* KAIROS 11.4.74: shared compact in-app confirmations. */
+#kairosDialog74[open]{position:fixed!important;inset:0!important;margin:auto!important;box-sizing:border-box!important;width:min(350px,calc(100% - 24px))!important;max-width:calc(100% - 24px)!important;height:max-content!important;max-height:calc(100dvh - 24px)!important;overflow:auto!important;padding:14px!important;border:1px solid var(--line)!important;border-radius:18px!important;background:var(--card,var(--panel,var(--bg)))!important;color:var(--text,var(--ink))!important;box-shadow:0 16px 42px #0004!important;text-align:left!important}
+#kairosDialog74::backdrop{background:#09111da8!important}
+#kairosDialog74 .kairos-dialog-head74{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 9px}
+#kairosDialog74 h2{font-size:17px!important;line-height:1.25!important;margin:0!important;letter-spacing:0!important}
+#kairosDialog74 p{white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px;line-height:1.45;margin:0 0 14px;color:var(--text,var(--ink))}
+#kairosDialog74 form{display:grid;gap:10px;margin:0;padding:0}
+#kairosDialog74 input{width:100%;min-width:0;min-height:44px;font-size:16px;box-sizing:border-box}
+#kairosDialog74 .kairos-dialog-actions74{display:flex;gap:8px}
+#kairosDialog74 button{font:inherit;font-weight:650;border-radius:10px;cursor:pointer;box-sizing:border-box;margin:0;min-width:0}
+#kairosDialog74 .kairos-dialog-x74{flex:0 0 36px;width:36px;height:36px;min-height:36px;padding:0;border:1px solid var(--line);background:transparent;color:var(--text,var(--ink));font-size:23px;font-weight:400;line-height:1}
+#kairosDialog74 .kairos-dialog-actions74 button{flex:1;min-height:44px;padding:8px;border:1px solid var(--line);font-size:14px}
+#kairosDialog74 .kairos-dialog-no74{background:transparent;color:var(--text,var(--ink))}
+#kairosDialog74 .kairos-dialog-yes74{background:var(--accent,var(--gold,#d4b36b));color:var(--bg);border-color:var(--accent,var(--gold,#d4b36b))}
+

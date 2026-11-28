@@ -1,0 +1,25 @@
+{
+  "version": "11.4.46",
+  "notes": "KAIROS 11.4.46 · Uniformità grafica",
+  "sha256": {
+    "index.html": "67353e3b087594771e9e9dae381d9acb19afb9291ea6cdb0ccda4aace9f16a04",
+    "app.v11.4.46.js": "420c9d630e4893dbf3f94498203bc62ae08a2ebb24cd7691a234adeb1ecff6ae",
+    "style.v11.4.46.css": "61d98d451d3874657ff3b6edbaeee35191c33a85272225ba210b40317955c480",
+    "spettanze.v11.4.46.js": "0480b0b60ef988a4192008efa7a5206525913b63f073347d4f8d4d477c6170a8",
+    "shiftflow.v11.4.46.html": "22b5155be00a84ae3278c9b8da0ce28eb0a8c5b0fd3cc5b2460ad3be8a63e723",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "c3a28b9dc920d7110d67a695c0634b4911834d334a9d4591e2c4fbcf768cea3a"
+  },
+  "changes": [
+    "Parametri grafici comuni: margini, schede, bordi, spaziature e titoli",
+    "Impostazioni: stessa larghezza delle altre pagine e azioni finali uniformi",
+    "Turni: geometria coordinata con tema e densità, modalità schermo intero preservata"
+  ]
+}

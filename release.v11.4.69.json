@@ -1,0 +1,25 @@
+{
+  "version": "11.4.69",
+  "notes": "KAIROS 11.4.69 · Tesserino e scadenze minimal",
+  "sha256": {
+    "index.html": "2d1fa360335e6cf1da97305c8d56d0b77ceb8033a62750645e4af872656f6cbd",
+    "app.v11.4.69.js": "58f9d10a36407940f11430701b7e1e88aa50208b000ce038bff9f6455169f58e",
+    "style.v11.4.69.css": "fd04d1a1dceb1792d3b4f31f755d96c0a94fd7360674dbd2e3ea8dd8b1da2f66",
+    "spettanze.v11.4.69.js": "ab46bdda132cedb76dd9478c162d5b4d8a5e1c90fdb3b2c7fe386d416c041396",
+    "shiftflow.v11.4.69.html": "a8b4077ecd0c7868a08aa743b328567e620b650d9a057c871dcd22738692f7c6",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "763021a0001ee1ab4b8ac5c0647b2828a034fd32a1ba6668a9a14268dc46d597"
+  },
+  "changes": [
+    "Popup compatto di selezione documenti e attività con ricerca, conferma e annullamento",
+    "Centro scadenze ordinato per priorità con contatori e sezioni richiudibili",
+    "Dati e regole di scadenza invariati"
+  ]
+}

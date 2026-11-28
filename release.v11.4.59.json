@@ -1,0 +1,24 @@
+{
+  "version": "11.4.59",
+  "notes": "KAIROS 11.4.59 · Situazione servizio",
+  "sha256": {
+    "index.html": "4812ba2b6ba620ba7919d349c65e1706cc4e910115822a2701b8283decadeee6",
+    "app.v11.4.59.js": "2b782797ed889ff2b0240d83108a19f47e99c5f0d77897b52d34a37416381792",
+    "style.v11.4.59.css": "329627d0003de70c4e2f3946a490794dcd2b60b95ded1774ea8eef36d329b6e2",
+    "spettanze.v11.4.59.js": "3d5d2538a0bc30d2fd162f8d83f545b6d6a7a22a33809b431d88caf7e765bf67",
+    "shiftflow.v11.4.59.html": "a3015b0302f752025f7a045440be9100668f89152726b9f83e5f23768c52503c",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "55872acf32fc70d7d1ab26ef8c353999b3d4a299a47256e4066232fa1138cc49"
+  },
+  "changes": [
+    "Scheda unica Home: situazione odierna e prossimo servizio lavorativo, senza countdown",
+    "Compatibilità preferenze Home preesistenti e layout consigliato"
+  ]
+}

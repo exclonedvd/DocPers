@@ -1,0 +1,25 @@
+{
+  "version": "11.4.73",
+  "notes": "KAIROS 11.4.73 · Agenda personale compatta",
+  "sha256": {
+    "index.html": "a33014bae709cdbaeef7020fdc6ffd4b5aeaba1e8a1e974a8041222ee17dc643",
+    "app.v11.4.73.js": "8f5eef44d05ef189a9dda9d26835dfdc0f92d8877b3f226b348a3059501a2e5d",
+    "style.v11.4.73.css": "8648838722682b9c36fcb2ebe3a20aafa7894a5e10fd9f1296b02105d5d4a963",
+    "spettanze.v11.4.73.js": "ab46bdda132cedb76dd9478c162d5b4d8a5e1c90fdb3b2c7fe386d416c041396",
+    "shiftflow.v11.4.73.html": "ddcbd9c07fd46295b6e010e2eb0c7113693e6fba8df8943ff9681ebb9af6a321",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "f18e74a6f2989607ee8299e56432a78023f9c73ac87dd538b5bdfa1434af2dd9"
+  },
+  "changes": [
+    "Editor impegno compatto con campi essenziali e opzioni richiudibili",
+    "Orari affiancati, intera giornata, navigazione agenda nascosta durante modifica",
+    "Precompilazione rinnovi per nome campo e conservazione logica di salvataggio"
+  ]
+}

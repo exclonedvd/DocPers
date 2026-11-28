@@ -1,0 +1,25 @@
+{
+  "version": "11.4.79",
+  "notes": "KAIROS 11.4.79 · Accesso e registrazione centrati",
+  "sha256": {
+    "index.html": "3386e6fbdd88f3137cdf2bfb90fd3644f2a59b25f81dd3ec0efbf3d4c572f297",
+    "app.v11.4.79.js": "b0e7cf33a012be62f82574c1ae4f3a13cf3086f25d562021b0083a98fc03ab0d",
+    "style.v11.4.79.css": "9ce933e05d00c1a13d31a73df9f0f68dd9e5e8d60c078b9f3dc2fc5cb120026f",
+    "spettanze.v11.4.79.js": "ab46bdda132cedb76dd9478c162d5b4d8a5e1c90fdb3b2c7fe386d416c041396",
+    "shiftflow.v11.4.79.html": "a235cd8177bbd5aa0e9639b7f6aac861fac9ae34c87167de81907415bfe1aeef",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "7e0bf17e78f21666c1f8a928fe383b7f5da01ec6b95bdfcf280eedf221665d85"
+  },
+  "changes": [
+    "Login centrato nello spazio disponibile",
+    "Registrazione centrata e scorrevole su schermi piccoli",
+    "Gestione tastiera e collegamenti Telegram preservati"
+  ]
+}

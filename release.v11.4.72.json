@@ -1,0 +1,24 @@
+{
+  "version": "11.4.72",
+  "notes": "KAIROS 11.4.72 · Barra Calendario Compatta",
+  "sha256": {
+    "index.html": "40f6b72ad0c27f851919f355725b4727b1f165b50db3bc90deb9b3cba846d6c2",
+    "app.v11.4.72.js": "cecc687799e2bd6227c0deb9f9c0af84bac072be6341dcd6dc620b37ffd164dc",
+    "style.v11.4.72.css": "1cd1b469706aa71f85b557da49d4569594adf471d1079bbb95a9482e1f3da188",
+    "spettanze.v11.4.72.js": "ab46bdda132cedb76dd9478c162d5b4d8a5e1c90fdb3b2c7fe386d416c041396",
+    "shiftflow.v11.4.72.html": "f535727a6f5a914ad1382036e442df6023c5fd2e976ef7274005abb141e2555b",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "c89408d59c3a820fbf09c14cc43e286bc066abc22a08853587ed68e6485beee4"
+  },
+  "changes": [
+    "Sei comandi con sole icone in una riga accanto alla legenda",
+    "Eliminazione della riga operativa separata; selezione multipla e annullamento conservati"
+  ]
+}

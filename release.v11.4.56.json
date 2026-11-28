@@ -1,0 +1,25 @@
+{
+  "version": "11.4.56",
+  "notes": "KAIROS 11.4.56 · Allegati minimal",
+  "sha256": {
+    "index.html": "305a9140e00b84883455787eef140d8eeb47803afabbc4bde2e8bc264568b736",
+    "app.v11.4.56.js": "ebe4b8b2c3176894e0498845b46881d1c8c17d70316e39f665ce95b0773debb0",
+    "style.v11.4.56.css": "b0bf6aa469102f5e801f54b296be33a86e9c66b63d5e99542c0ddfd8d2fcf6ba",
+    "spettanze.v11.4.56.js": "3d5d2538a0bc30d2fd162f8d83f545b6d6a7a22a33809b431d88caf7e765bf67",
+    "shiftflow.v11.4.56.html": "48198aa17c29db465fc7dcf7f78fdbf14dc66e9198fae1527a80198f6f5155b5",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "d98c2d179249ca45192bedd4c895544edc796014e5f3fe1378610959148cba58"
+  },
+  "changes": [
+    "Caricamento allegati progressivo e interfaccia compatta",
+    "Indicatore animato durante preparazione e invio",
+    "Compressione e data visibili dopo la scelta del file"
+  ]
+}

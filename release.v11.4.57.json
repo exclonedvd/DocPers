@@ -1,0 +1,24 @@
+{
+  "version": "11.4.57",
+  "notes": "KAIROS 11.4.57 · Allegati senza scanner",
+  "sha256": {
+    "index.html": "82f32fbd910df6ea3638ed81b321d1df67df1fc21b8e6b4a0a1c1f067b914f05",
+    "app.v11.4.57.js": "c7eb2912250a9c28db42bb637ebf09aaec69eeeb9ac02489ab38540bc2d113da",
+    "style.v11.4.57.css": "d9c4cfb6c1c8775af72a4a8104e207c43fb10613e10277a12ea71b81a117a026",
+    "spettanze.v11.4.57.js": "3d5d2538a0bc30d2fd162f8d83f545b6d6a7a22a33809b431d88caf7e765bf67",
+    "shiftflow.v11.4.57.html": "406c5d4ff82326bcaa1e517cb224ed9637c9a021e9c4867d4dde9f21892f6c29",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "adbb36cb17f1a55f5169dbacf209d71dad31d09ddad5302aa7ea6296ac3316b7"
+  },
+  "changes": [
+    "Rimozione dello scanner documentale e dei controlli associati",
+    "Conservazione di file, galleria, fotocamera, storico e caricamento animato"
+  ]
+}

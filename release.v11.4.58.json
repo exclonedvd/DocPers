@@ -1,0 +1,24 @@
+{
+  "version": "11.4.58",
+  "notes": "KAIROS 11.4.58 · Allegati essenziali",
+  "sha256": {
+    "index.html": "2290111ce5447338dcd42b39cd1e812017bebb07e0c1b1ba1aaa04bc99b2b9b3",
+    "app.v11.4.58.js": "aeea9c02a867cd120605b4251a408f5af18fc2a1af9e5e629fa7594bc05ef313",
+    "style.v11.4.58.css": "d69056c49f489263791a7ccaff422950f548f9a17218c78ba711f9be4f59bee1",
+    "spettanze.v11.4.58.js": "3d5d2538a0bc30d2fd162f8d83f545b6d6a7a22a33809b431d88caf7e765bf67",
+    "shiftflow.v11.4.58.html": "2d8b7e0b461460ebbc512c03923f8c12094fefb4987b01ee9b4606febadfd991",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "8481b041a59ec3cc6368e753035d99e03fc7204da64c922a08deb0c96f686b74"
+  },
+  "changes": [
+    "Rimozione sezioni Filtri e storico e Spazio allegati e informazioni dal popup allegati",
+    "Elenco completo degli allegati con conteggio unico nella testata; caricamento e animazione invariati"
+  ]
+}

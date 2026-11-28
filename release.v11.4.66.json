@@ -1,0 +1,24 @@
+{
+  "version": "11.4.66",
+  "notes": "KAIROS 11.4.66 · Modelli documentali facoltativi",
+  "sha256": {
+    "index.html": "2b61b1e5e158a447ae3060a27163ac32986e5f7272f92a853a8b747a8fdf64c6",
+    "app.v11.4.66.js": "be1989110bff6a4ba0f79aa6d253d19e124806c69ad0b63c3a82c7fb5e50c355",
+    "style.v11.4.66.css": "e8b0fb860d2b6fab2e9fcd0e773e3e7d1017a8dd4050a461697632c389faf4a3",
+    "spettanze.v11.4.66.js": "ab46bdda132cedb76dd9478c162d5b4d8a5e1c90fdb3b2c7fe386d416c041396",
+    "shiftflow.v11.4.66.html": "1827bc95db328f8a7a5e566b226e93401b13a7a6358f7150d6f7562dae9c3230",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "6fa3a2a2d4366b4cab19e3bfc9a88d6fb2ab9bdc86b34cf92872e8d8b12d40ad"
+  },
+  "changes": [
+    "Catalogo di 13 modelli facoltativi",
+    "Dotazione iniziale invariata e documenti esistenti preservati"
+  ]
+}

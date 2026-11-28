@@ -1,0 +1,25 @@
+{
+  "version": "11.4.75",
+  "notes": "KAIROS 11.4.75 · Adaptive Fullscreen",
+  "sha256": {
+    "index.html": "41bd739d734012632e332a823ffb080dc9d46d1a272ad80ae08d41c0ba148554",
+    "app.v11.4.75.js": "4083f674f6d49b877c2ae3bc69a0d2a93b46b1534944fd0de0b8f7f4fc66de5a",
+    "style.v11.4.75.css": "6a89f289004e314c9330dd919f8063ac8c4711a3a90e624ecbbc34eb8a006fae",
+    "spettanze.v11.4.75.js": "ab46bdda132cedb76dd9478c162d5b4d8a5e1c90fdb3b2c7fe386d416c041396",
+    "shiftflow.v11.4.75.html": "e761941dbe77c02de4ddc39780b55aaeb6cdae7b78028658e429e9dbe62cb03e",
+    "manifest.webmanifest": "83e84459201fe0a50357afc4c6ea39d51da70818f0527367d3b036059d2e2902",
+    "kairos-logo.png": "e1d72905e1eae6efef1435bf882ae0fa64fdb89e6c61bd1f2a810e62160f37a0",
+    "kairos-icon-192.png": "5426fd6062a900337f39db9e23db37c3d991c8194d83605e3b63a0bb593e8b5d",
+    "kairos-icon-512.png": "cfc19efb998792dfc841968ad764314c21437ec015d7b5ce51b98fb2a8334b7e",
+    "kairos-apple-180.png": "7ec9b5feeddcac2d76fcf75bb5502cd406d22412db05e214817bb8d8cf9e3aeb",
+    "spettanze.v11.2.0.js": "73ae05b3926952b15f9faecde3288f61eb89b1d340c40429de6697e58a363955",
+    "spettanze.v11.2.1.js": "0eeb1f05893930f93b0f99f41daa651370336eb3a9cd662e160e124560db582e",
+    "spettanze.v5.11.0.js": "2d10ce3f80348ffa70ab269f86ce76d80348c88010dc3765325e8914f8a64ccc",
+    "sw.js": "9b2dd02e1b80a5691ece0f2b4e8c1eca9566000f74963cd40f2c8517b7f5c3b6"
+  },
+  "changes": [
+    "Griglia mensile con altezza dinamica e righe uniformi",
+    "Uscita da schermo intero mediante pulsante inferiore",
+    "Scorrimento interno quando necessario per preservare la leggibilità"
+  ]
+}
